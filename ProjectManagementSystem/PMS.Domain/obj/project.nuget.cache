@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bNKTzAQm9fs=",
+  "dgSpecHash": "zRIOBmdcqws=",
   "success": true,
   "projectFilePath": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Domain\\PMS.Domain.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

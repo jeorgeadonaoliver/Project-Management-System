@@ -11,7 +11,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Features\Department\Command\" />
+    <Folder Include="Features\EmployeeProject\Command\" />
     <Folder Include="Features\Employee\Commands\" />
+    <Folder Include="Features\Job\Command\" />
+    <Folder Include="Features\Project\Command\" />
+    <Folder Include="Features\Role\Command\" />
+    <Folder Include="Features\Team\Command\" />
   </ItemGroup>
 
   <ItemGroup>

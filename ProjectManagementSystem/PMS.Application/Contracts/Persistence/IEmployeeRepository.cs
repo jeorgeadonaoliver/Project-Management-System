@@ -13,6 +13,8 @@ namespace PMS.Application.Contracts.Persistence
 
         public Task<bool> GetAny(string lastname, string firstname);
 
+        public Task<bool> GetAny(int id);
+
         public Task<IEnumerable<Employee>> GetByTeam(int teamId);
 
         public Task<IEnumerable<Employee>> GetByDepartment(int departmentId);

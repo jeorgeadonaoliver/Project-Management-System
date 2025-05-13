@@ -19,6 +19,11 @@ namespace PMS.Persistence.Repositories
             return await _context.Set<Employee>().AnyAsync(x => x.LastName == lastname && x.FirstName == firstname );
         }
 
+        public async Task<bool> GetAny(int id)
+        {
+            return await _context.Set<Employee>().AnyAsync(x => x.EmployeeId == id);
+        }
+
         public async Task<IEnumerable<Employee>> GetAllDetailsAsync() 
         {
             return await _context.Set<Employee>()

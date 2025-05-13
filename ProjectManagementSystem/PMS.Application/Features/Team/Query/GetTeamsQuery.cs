@@ -1,0 +1,11 @@
+﻿using MediatR;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PMS.Application.Features.Team.Query
+{
+    public record GetTeamsQuery : IRequest<List<GetTeamsQueryDto>>;
+}

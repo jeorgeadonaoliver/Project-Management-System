@@ -1,7 +1,40 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65886B8F-7434-4D18-A086-44A8176FDFC2}|PMS.Api\\PMS.Api.csproj|c:\\users\\jeorge oliver\\source\\real portfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.api\\controllers\\employeeprojectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65886B8F-7434-4D18-A086-44A8176FDFC2}|PMS.Api\\PMS.Api.csproj|solutionrelative:pms.api\\controllers\\employeeprojectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|c:\\users\\jeorge oliver\\source\\real portfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.application\\features\\employeeproject\\query\\getemployeeprojectqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|solutionrelative:pms.application\\features\\employeeproject\\query\\getemployeeprojectqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|c:\\users\\jeorge oliver\\source\\real portfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.application\\features\\employeeproject\\query\\getemployeeprojectquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|solutionrelative:pms.application\\features\\employeeproject\\query\\getemployeeprojectquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|c:\\users\\jeorge oliver\\source\\real portfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.application\\features\\project\\query\\getprojectqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|solutionrelative:pms.application\\features\\project\\query\\getprojectqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|c:\\users\\jeorge oliver\\source\\real portfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.application\\features\\project\\query\\getprojectdetail\\getprojectdetailquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|solutionrelative:pms.application\\features\\project\\query\\getprojectdetail\\getprojectdetailquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|c:\\users\\jeorge oliver\\source\\real portfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.application\\features\\project\\query\\getprojectquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|solutionrelative:pms.application\\features\\project\\query\\getprojectquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65886B8F-7434-4D18-A086-44A8176FDFC2}|PMS.Api\\PMS.Api.csproj|c:\\users\\jeorge oliver\\source\\real portfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.api\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65886B8F-7434-4D18-A086-44A8176FDFC2}|PMS.Api\\PMS.Api.csproj|solutionrelative:pms.api\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|c:\\users\\jeorge oliver\\source\\real portfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.application\\features\\project\\query\\getprojectdetail\\getprojectdetailqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|solutionrelative:pms.application\\features\\project\\query\\getprojectdetail\\getprojectdetailqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +42,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeProjectController.cs",
+              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Api\\Controllers\\EmployeeProjectController.cs",
+              "RelativeDocumentMoniker": "PMS.Api\\Controllers\\EmployeeProjectController.cs",
+              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Api\\Controllers\\EmployeeProjectController.cs",
+              "RelativeToolTip": "PMS.Api\\Controllers\\EmployeeProjectController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:13:36.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetEmployeeProjectQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\EmployeeProject\\Query\\GetEmployeeProjectQueryHandler.cs",
+              "RelativeDocumentMoniker": "PMS.Application\\Features\\EmployeeProject\\Query\\GetEmployeeProjectQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\EmployeeProject\\Query\\GetEmployeeProjectQueryHandler.cs",
+              "RelativeToolTip": "PMS.Application\\Features\\EmployeeProject\\Query\\GetEmployeeProjectQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:10:55.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetEmployeeProjectQueryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\EmployeeProject\\Query\\GetEmployeeProjectQueryDto.cs",
+              "RelativeDocumentMoniker": "PMS.Application\\Features\\EmployeeProject\\Query\\GetEmployeeProjectQueryDto.cs",
+              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\EmployeeProject\\Query\\GetEmployeeProjectQueryDto.cs",
+              "RelativeToolTip": "PMS.Application\\Features\\EmployeeProject\\Query\\GetEmployeeProjectQueryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:10:05.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetProjectDetailQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\Project\\Query\\GetProjectDetail\\GetProjectDetailQuery.cs",
+              "RelativeDocumentMoniker": "PMS.Application\\Features\\Project\\Query\\GetProjectDetail\\GetProjectDetailQuery.cs",
+              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\Project\\Query\\GetProjectDetail\\GetProjectDetailQuery.cs",
+              "RelativeToolTip": "PMS.Application\\Features\\Project\\Query\\GetProjectDetail\\GetProjectDetailQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:06:38.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetProjectQueryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\Project\\Query\\GetProjectQueryDto.cs",
+              "RelativeDocumentMoniker": "PMS.Application\\Features\\Project\\Query\\GetProjectQueryDto.cs",
+              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\Project\\Query\\GetProjectQueryDto.cs",
+              "RelativeToolTip": "PMS.Application\\Features\\Project\\Query\\GetProjectQueryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:06:23.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetProjectQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\Project\\Query\\GetProjectQueryHandler.cs",
+              "RelativeDocumentMoniker": "PMS.Application\\Features\\Project\\Query\\GetProjectQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\Project\\Query\\GetProjectQueryHandler.cs",
+              "RelativeToolTip": "PMS.Application\\Features\\Project\\Query\\GetProjectQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:05:57.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Api\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "PMS.Api\\Controllers\\ProjectController.cs",
+              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Api\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "PMS.Api\\Controllers\\ProjectController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:02:59.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetProjectDetailQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\Project\\Query\\GetProjectDetail\\GetProjectDetailQueryHandler.cs",
+              "RelativeDocumentMoniker": "PMS.Application\\Features\\Project\\Query\\GetProjectDetail\\GetProjectDetailQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\Project\\Query\\GetProjectDetail\\GetProjectDetailQueryHandler.cs",
+              "RelativeToolTip": "PMS.Application\\Features\\Project\\Query\\GetProjectDetail\\GetProjectDetailQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T10:58:10.856Z",
+              "EditorCaption": ""
             }
           ]
         }

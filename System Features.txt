@@ -1,0 +1,120 @@
+Department:
+[X] Get All Department
+[X] Get Department Detail
+[ ] Create Department
+[ ] Update Department
+
+Job:
+[X] Get All Job
+[X] Get Job Detail
+[ ] Create Job
+[ ] Update Job
+
+Team:
+[X] Get All Team
+[X] Get Team Detail
+[ ] Create Job
+[ ] Update Job
+
+Role:
+[X] Get All Role
+[X] Get Role Detail
+[ ] Create Job
+[ ] Update Job
+
+Employee:
+[X] Get All Employee
+[X] Get Employee Detail
+[X] Get Employee by Team or Department
+[ ] Get Employee by Project
+[ ] Create Employee
+[ ] Update Employee
+
+Project:
+
+[ ] Get All Project
+[ ] Get Project Detail
+[ ] Create Employee
+[ ] Update Employee
+
+Employee Project:
+
+[ ] Get All Project
+[ ] Create Employee
+[ ] Update Employee
+
+
+Employee Management:
+
+[ ] Implement API endpoint/function to add a new employee:
+[X] Define the input data structure (e.g., request body).
+[ ] Implement data validation for all required fields.
+[ ] Validate email format and uniqueness.
+[ ] Query Jobs, Departments, and Roles tables to verify IDs.
+[ ] Construct and execute the INSERT SQL query.
+[ ] Implement error handling for database operations.
+[X] Return a success/error response (e.g., JSON).
+[X] Implement API endpoint/function to retrieve employee details:
+[X] Define the endpoint/function to accept EmployeeID.
+[X] Construct a SELECT SQL query with JOINs across Employees, Jobs, Departments, Teams, and Roles.
+[X] Handle cases where the employee ID doesn't exist.
+[X] Return the employee details in a structured format (e.g., JSON).
+[ ] Implement API endpoint/function to update employee information:
+[ ] Define the endpoint/function to employee update data.
+[ ] Implement data validation for updated fields.
+[ ] Construct and execute the UPDATE SQL query based on EmployeeID.
+[ ] Ensure foreign key constraints are respected during updates.
+[ ] Implement error handling and return a success/error response.
+[X] Implement API endpoint/function to list all employees (with optional filtering):
+[X] Define the base SELECT SQL query from the Employees table.
+[X] Implement logic to handle optional DepartmentID or TeamID parameters in the query (WHERE clause).
+[X] Potentially include JOINs to display Department and Team names.
+[X] Return the list of employees in a structured format.
+
+Team Management:
+
+[ ] Implement API endpoint/function to retrieve all teams:
+[ ] Construct and execute a SELECT SQL query from the Teams table.
+[ ] Return the list of teams.
+[X] Implement API endpoint/function to retrieve employees by team:
+[X] Define the endpoint/function to accept TeamID.
+[X] Construct a SELECT SQL query joining Employees and Teams with a WHERE clause on TeamID. Include relevant employee details.
+[X] Return the list of employees for the specified team.
+
+Project Management:
+
+[ ] Implement API endpoint/function to retrieve all projects:
+[ ] Construct and execute a SELECT SQL query from the Projects table, potentially joining with Teams to show the responsible team.
+[ ] Return the list of projects.
+[ ] Implement API endpoint/function to retrieve employees by project:
+[ ] Define the endpoint/function to accept ProjectID.
+[ ] Construct a SELECT SQL query joining Employees, EmployeeProjects, and Projects with a WHERE clause on ProjectID. Include the employee's RoleInProject.
+[ ] Return the list of employees and their roles for the specified project.
+
+Employee-Project Assignment:
+
+[ ] Implement API endpoint/function to assign an employee to a project:
+[ ] Define the endpoint/function to accept EmployeeID, ProjectID, and RoleInProject.
+[ ] Validate that EmployeeID and ProjectID exist.
+[ ] Construct and execute an INSERT SQL query into EmployeeProjects.
+[ ] Handle potential duplicate assignments.
+[ ] Return a success/error response.
+[ ] Implement API endpoint/function to retrieve projects for an employee:
+[X] Define the endpoint/function to accept EmployeeID.
+[ ] Construct a SELECT SQL query joining Employees, EmployeeProjects, and Projects with a WHERE clause on EmployeeID. Include project names and RoleInProject.
+[ ] Return the list of projects for the specified employee.
+
+Optional Enhancements (If Time Permits):
+
+[ ] Implement API endpoint/function to add a new team.
+[ ] Implement API endpoint/function to add a new project.
+[ ] Implement API endpoint/function to assign a team to a project.
+
+Remember to:
+
+
+Set up your database connection.
+Implement proper error handling and logging.
+Consider security aspects (though this might be basic for a portfolio project).
+Document your API endpoints and the data they exchange.
+This checklist should provide a good starting point for your backend development. Focus on completing the core Employee Management tasks and then branch out to Team and Project Management based on your time and desired complexity for your portfolio. Good luck!

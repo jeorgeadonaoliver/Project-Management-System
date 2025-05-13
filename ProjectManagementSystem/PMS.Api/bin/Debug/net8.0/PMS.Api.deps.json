@@ -718,9 +718,6 @@
         }
       },
       "PMS.Domain/1.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4"
-        },
         "runtime": {
           "PMS.Domain.dll": {
             "assemblyVersion": "1.0.0.0",
