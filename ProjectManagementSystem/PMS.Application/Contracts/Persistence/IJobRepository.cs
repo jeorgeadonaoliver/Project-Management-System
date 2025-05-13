@@ -12,5 +12,7 @@ namespace PMS.Application.Contracts.Persistence
         Task<Job> GetById(int id);
 
         Task<bool> GetAny(string title);
+
+        Task<bool> GetAny(int id);
     }
 }

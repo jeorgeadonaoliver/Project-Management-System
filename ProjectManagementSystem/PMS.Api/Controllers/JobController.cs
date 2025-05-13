@@ -1,6 +1,7 @@
 ﻿using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using PMS.Application.Features.Job.Command.CreateJob;
+using PMS.Application.Features.Job.Command.UpdateJob;
 using PMS.Application.Features.Job.Query;
 using PMS.Application.Features.Job.Query.GetJobDetail;
 
@@ -28,6 +29,20 @@ namespace PMS.Api.Controllers
         {
             var result = await _mediator.Send(new GetJobDetailQuery(id));
             return Ok(result);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> Update(UpdateJobCommand cmd) 
+        {
+            var result = await _mediator.Send(cmd);
+            return Ok("Updating Job details Successful");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create(CreateJobCommand cmd)
+        {
+            var result = await _mediator.Send(cmd);
+            return Ok("Creating new Job Successful!");
         }
     }
 }

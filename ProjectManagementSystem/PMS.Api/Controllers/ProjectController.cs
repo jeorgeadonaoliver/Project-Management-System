@@ -1,6 +1,8 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using PMS.Application.Features.Project.Command.CreateProject;
+using PMS.Application.Features.Project.Command.UpdateProject;
 using PMS.Application.Features.Project.Query;
 using PMS.Application.Features.Project.Query.GetProjectDetail;
 
@@ -28,6 +30,20 @@ namespace PMS.Api.Controllers
         {
             var result = await _mediator.Send(new GetProjectDetailQuery(id));
             return Ok(result);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create(CreateProjectCommand command) 
+        {
+            var result = await _mediator.Send(command);
+            return Ok("Creating Project Successful!");
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> Update(UpdateProjectCommand command) 
+        {
+            var result = await _mediator.Send(command);
+            return Ok("Updating Project Details Successful.");
         }
     }
 }

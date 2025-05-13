@@ -11,6 +11,38 @@
   },
   {
     "ContainingType": "PMS.Api.Controllers.DepartmentController",
+    "Method": "Create",
+    "RelativePath": "api/Department",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cmd",
+        "Type": "PMS.Application.Features.Department.Command.CreateDepartment.CreateDepartmentCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.Api.Controllers.DepartmentController",
+    "Method": "Update",
+    "RelativePath": "api/Department",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cmd",
+        "Type": "PMS.Application.Features.Department.Command.UpdateDepartment.UpdateDepartmentCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.Api.Controllers.DepartmentController",
     "Method": "Get",
     "RelativePath": "api/Department/id",
     "HttpMethod": "GET",
@@ -89,6 +121,38 @@
   },
   {
     "ContainingType": "PMS.Api.Controllers.JobController",
+    "Method": "Update",
+    "RelativePath": "api/Job",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cmd",
+        "Type": "PMS.Application.Features.Job.Command.UpdateJob.UpdateJobCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.Api.Controllers.JobController",
+    "Method": "Create",
+    "RelativePath": "api/Job",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cmd",
+        "Type": "PMS.Application.Features.Job.Command.CreateJob.CreateJobCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.Api.Controllers.JobController",
     "Method": "GetById",
     "RelativePath": "api/Job/{id}",
     "HttpMethod": "GET",
@@ -111,6 +175,38 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.Api.Controllers.ProjectController",
+    "Method": "Create",
+    "RelativePath": "api/Project",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "PMS.Application.Features.Project.Command.CreateProject.CreateProjectCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.Api.Controllers.ProjectController",
+    "Method": "Update",
+    "RelativePath": "api/Project",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "PMS.Application.Features.Project.Command.UpdateProject.UpdateProjectCommand",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -163,6 +259,38 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.Api.Controllers.TeamController",
+    "Method": "Update",
+    "RelativePath": "api/Team",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "PMS.Application.Features.Team.Command.UpdateTeam.UpdateTeamCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.Api.Controllers.TeamController",
+    "Method": "Create",
+    "RelativePath": "api/Team",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "PMS.Application.Features.Team.Command.CreateTeam.CreateTeamCommand",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

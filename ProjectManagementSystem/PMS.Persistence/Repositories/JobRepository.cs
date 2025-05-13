@@ -18,6 +18,11 @@ namespace PMS.Persistence.Repositories
             return await _context.Set<Job>().AnyAsync(c => c.JobTitle == title);
         }
 
+        public async Task<bool> GetAny(int id)
+        {
+            return await _context.Set<Job>().AnyAsync(c => c.JobId == id);
+        }
+
         public async Task<Job> GetById(int id)
         {
             return await _context.Set<Job>().FirstOrDefaultAsync(x => x.JobId == id);

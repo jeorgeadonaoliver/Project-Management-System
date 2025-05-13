@@ -1,26 +1,26 @@
 Department:
 [X] Get All Department
 [X] Get Department Detail
-[ ] Create Department
-[ ] Update Department
+[X] Create Department
+[X] Update Department
 
 Job:
 [X] Get All Job
 [X] Get Job Detail
-[ ] Create Job
-[ ] Update Job
+[X] Create Job
+[x] Update Job
 
 Team:
-[X] Get All Team
+[X] Get All Teams
 [X] Get Team Detail
-[ ] Create Job
-[ ] Update Job
+[X] Create Team
+[X] Update Team
 
 Role:
 [X] Get All Role
 [X] Get Role Detail
-[ ] Create Job
-[ ] Update Job
+[X] Create Job
+[X] Update Job
 
 Employee:
 [X] Get All Employee
@@ -32,16 +32,16 @@ Employee:
 
 Project:
 
-[ ] Get All Project
-[ ] Get Project Detail
-[ ] Create Employee
-[ ] Update Employee
+[X] Get All Project
+[X] Get Project Detail
+[X] Create Project
+[X] Update Project
 
 Employee Project:
 
-[ ] Get All Project
-[ ] Create Employee
-[ ] Update Employee
+[X] Get All Employee Project
+[ ] Create Employee Project
+[ ] Update Employee Project
 
 
 Employee Management:
@@ -73,9 +73,9 @@ Employee Management:
 
 Team Management:
 
-[ ] Implement API endpoint/function to retrieve all teams:
+[X] Implement API endpoint/function to retrieve all teams:
 [ ] Construct and execute a SELECT SQL query from the Teams table.
-[ ] Return the list of teams.
+[X] Return the list of teams.
 [X] Implement API endpoint/function to retrieve employees by team:
 [X] Define the endpoint/function to accept TeamID.
 [X] Construct a SELECT SQL query joining Employees and Teams with a WHERE clause on TeamID. Include relevant employee details.
@@ -85,7 +85,7 @@ Project Management:
 
 [ ] Implement API endpoint/function to retrieve all projects:
 [ ] Construct and execute a SELECT SQL query from the Projects table, potentially joining with Teams to show the responsible team.
-[ ] Return the list of projects.
+[X] Return the list of projects.
 [ ] Implement API endpoint/function to retrieve employees by project:
 [ ] Define the endpoint/function to accept ProjectID.
 [ ] Construct a SELECT SQL query joining Employees, EmployeeProjects, and Projects with a WHERE clause on ProjectID. Include the employee's RoleInProject.
@@ -106,8 +106,8 @@ Employee-Project Assignment:
 
 Optional Enhancements (If Time Permits):
 
-[ ] Implement API endpoint/function to add a new team.
-[ ] Implement API endpoint/function to add a new project.
+[X] Implement API endpoint/function to add a new team.
+[X] Implement API endpoint/function to add a new project.
 [ ] Implement API endpoint/function to assign a team to a project.
 
 Remember to:

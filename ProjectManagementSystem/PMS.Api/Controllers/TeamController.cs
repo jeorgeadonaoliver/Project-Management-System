@@ -1,6 +1,8 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using PMS.Application.Features.Team.Command.CreateTeam;
+using PMS.Application.Features.Team.Command.UpdateTeam;
 using PMS.Application.Features.Team.Query;
 using PMS.Application.Features.Team.Query.GetTeamDetail;
 
@@ -28,6 +30,20 @@ namespace PMS.Api.Controllers
         {
             var result = await _mediator.Send(new GetTeamDetailQuery(id));
             return Ok(result);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> Update(UpdateTeamCommand command) 
+        {
+            var result = await _mediator.Send(command);
+            return Ok("Updating Team detail successful!");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create(CreateTeamCommand command)
+        {
+            var result = await _mediator.Send(command);
+            return Ok("Creating New Team successful!");
         }
     }
 }
