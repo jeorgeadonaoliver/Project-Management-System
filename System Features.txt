@@ -26,8 +26,8 @@ Employee:
 [X] Get All Employee
 [X] Get Employee Detail
 [X] Get Employee by Team or Department
-[ ] Create Employee
-[ ] Update Employee
+[X] Create Employee
+[X] Update Employee
 
 Project:
 
@@ -46,12 +46,12 @@ Employee Project:
 
 Employee Management:
 
-[ ] Implement API endpoint/function to add a new employee:
+[X] Implement API endpoint/function to add a new employee:
 [X] Define the input data structure (e.g., request body).
 [ ] Implement data validation for all required fields.
 [ ] Validate email format and uniqueness.
 [ ] Query Jobs, Departments, and Roles tables to verify IDs.
-[ ] Construct and execute the INSERT SQL query.
+[X] Construct and execute the INSERT SQL query.
 [ ] Implement error handling for database operations.
 [X] Return a success/error response (e.g., JSON).
 [X] Implement API endpoint/function to retrieve employee details:
@@ -59,8 +59,8 @@ Employee Management:
 [X] Construct a SELECT SQL query with JOINs across Employees, Jobs, Departments, Teams, and Roles.
 [X] Handle cases where the employee ID doesn't exist.
 [X] Return the employee details in a structured format (e.g., JSON).
-[ ] Implement API endpoint/function to update employee information:
-[ ] Define the endpoint/function to employee update data.
+[X] Implement API endpoint/function to update employee information:
+[X] Define the endpoint/function to employee update data.
 [ ] Implement data validation for updated fields.
 [ ] Construct and execute the UPDATE SQL query based on EmployeeID.
 [ ] Ensure foreign key constraints are respected during updates.

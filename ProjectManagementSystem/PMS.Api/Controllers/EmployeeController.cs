@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PMS.Api.Model;
+using PMS.Application.Features.Employee.Commands.CreateEmployee;
+using PMS.Application.Features.Employee.Commands.UpdateEmployee;
 using PMS.Application.Features.Employee.Query.GetAllEmployee;
 using PMS.Application.Features.Employee.Query.GetEmployeeByTeam;
 using PMS.Application.Features.Employee.Query.GetEmployeeDetails;
@@ -37,6 +39,20 @@ namespace PMS.Api.Controllers
         {
             var data = await _mediator.Send(new GetEmployeeDetailsQuery(id));
             return Ok(data);
+        }
+
+        [HttpPost("addemployee")]
+        public async Task<IActionResult> Create([FromBody]CreateEmployeeCommand cmd)
+        {
+            var data = await _mediator.Send(cmd);
+            return Ok("Employee has been Successfully ADDED.");
+        }
+
+        [HttpPut("updateemployee")]
+        public async Task<IActionResult> Update([FromBody]UpdateEmployeeCommand cmd)
+        {
+            var data = await _mediator.Send(cmd);
+            return Ok("Employee Details has been updated SUCCESSFULLY.");
         }
     }
 }

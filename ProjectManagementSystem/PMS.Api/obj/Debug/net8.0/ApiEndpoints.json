@@ -69,6 +69,22 @@
   },
   {
     "ContainingType": "PMS.Api.Controllers.EmployeeController",
+    "Method": "Create",
+    "RelativePath": "api/Employee/addemployee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cmd",
+        "Type": "PMS.Application.Features.Employee.Commands.CreateEmployee.CreateEmployeeCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.Api.Controllers.EmployeeController",
     "Method": "GetAllById",
     "RelativePath": "api/Employee/employeeId",
     "HttpMethod": "GET",
@@ -94,6 +110,22 @@
       {
         "Name": "request",
         "Type": "PMS.Api.Model.EmployeeRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.Api.Controllers.EmployeeController",
+    "Method": "Update",
+    "RelativePath": "api/Employee/updateemployee",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cmd",
+        "Type": "PMS.Application.Features.Employee.Commands.UpdateEmployee.UpdateEmployeeCommand",
         "IsRequired": true
       }
     ],
@@ -243,16 +275,6 @@
   },
   {
     "ContainingType": "PMS.Api.Controllers.ProjectController",
-    "Method": "GetAll",
-    "RelativePath": "api/Project",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PMS.Api.Controllers.ProjectController",
     "Method": "Create",
     "RelativePath": "api/Project",
     "HttpMethod": "POST",
@@ -297,6 +319,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.Api.Controllers.ProjectController",
+    "Method": "GetAll",
+    "RelativePath": "api/Project/projectteam",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

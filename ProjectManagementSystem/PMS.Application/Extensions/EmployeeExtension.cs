@@ -1,4 +1,6 @@
-﻿using PMS.Application.Features.Employee.Query.GetAllEmployee;
+﻿using PMS.Application.Features.Employee.Commands.CreateEmployee;
+using PMS.Application.Features.Employee.Commands.UpdateEmployee;
+using PMS.Application.Features.Employee.Query.GetAllEmployee;
 using PMS.Application.Features.Employee.Query.GetEmployeeByTeam;
 using PMS.Application.Features.Employee.Query.GetEmployeeDetails;
 using PMS.Persistence.Models;
@@ -81,6 +83,43 @@ namespace PMS.Application.Extensions
                 RoleName = employee.Role.RoleName,
                 DepartmentName = employee.Department.DepartmentName,
                 JobName = employee.Job.JobTitle
+            };
+        }
+
+        public static Employee MapToEmployee(this CreateEmployeeCommand employee) 
+        {
+            return new Employee 
+            {
+                Email = employee.Email,
+                FirstName = employee.FirstName,
+                LastName = employee.LastName,
+                DepartmentId = employee.DepartmentId,
+                HireDate = employee.HireDate,
+                JobId = employee.JobId,
+                ManagerId = employee.ManagerId,
+                PhoneNumber = employee.PhoneNumber,
+                RoleId = employee.RoleId,
+                Salary = employee.Salary,
+                TeamId = employee.TeamId,
+            };
+        }
+
+        public static Employee MapToEmployee(this UpdateEmployeeCommand employee)
+        {
+            return new Employee
+            {
+                EmployeeId = employee.EmployeeId,
+                Email = employee.Email,
+                FirstName = employee.FirstName,
+                LastName = employee.LastName,
+                DepartmentId = employee.DepartmentId,
+                HireDate = employee.HireDate,
+                JobId = employee.JobId,
+                ManagerId = employee.ManagerId,
+                PhoneNumber = employee.PhoneNumber,
+                RoleId = employee.RoleId,
+                Salary = employee.Salary,
+                TeamId = employee.TeamId,
             };
         }
     }

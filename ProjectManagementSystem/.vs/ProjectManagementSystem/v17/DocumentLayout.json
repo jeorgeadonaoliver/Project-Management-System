@@ -3,44 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65886B8F-7434-4D18-A086-44A8176FDFC2}|PMS.Api\\PMS.Api.csproj|c:\\users\\jeorge oliver\\source\\real portfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.api\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65886B8F-7434-4D18-A086-44A8176FDFC2}|PMS.Api\\PMS.Api.csproj|solutionrelative:pms.api\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|c:\\users\\jeorge oliver\\source\\real portfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.application\\features\\employee\\commands\\updateemployee\\updateemployeecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|solutionrelative:pms.application\\features\\employee\\commands\\updateemployee\\updateemployeecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|c:\\users\\jeorge oliver\\source\\real portfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.application\\features\\project\\query\\getprojectwithteam\\getprojectwithteamqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|solutionrelative:pms.application\\features\\project\\query\\getprojectwithteam\\getprojectwithteamqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65886B8F-7434-4D18-A086-44A8176FDFC2}|PMS.Api\\PMS.Api.csproj|c:\\users\\jeorge oliver\\source\\real portfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65886B8F-7434-4D18-A086-44A8176FDFC2}|PMS.Api\\PMS.Api.csproj|solutionrelative:pms.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D4F5207-FA69-489E-B2F5-01738ABE87D7}|PMS.Persistence\\PMS.Persistence.csproj|c:\\users\\jeorge oliver\\source\\real portfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.persistence\\repositories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D4F5207-FA69-489E-B2F5-01738ABE87D7}|PMS.Persistence\\PMS.Persistence.csproj|solutionrelative:pms.persistence\\repositories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|c:\\users\\jeorge oliver\\source\\real portfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.application\\features\\employee\\commands\\createemployee\\createemployeecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|solutionrelative:pms.application\\features\\employee\\commands\\createemployee\\createemployeecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65886B8F-7434-4D18-A086-44A8176FDFC2}|PMS.Api\\PMS.Api.csproj|c:\\users\\jeorge oliver\\source\\real portfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.api\\controllers\\employeeprojectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65886B8F-7434-4D18-A086-44A8176FDFC2}|PMS.Api\\PMS.Api.csproj|solutionrelative:pms.api\\controllers\\employeeprojectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|c:\\users\\jeorge oliver\\source\\real portfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.application\\features\\employeeproject\\command\\createemployeeproject\\createemployeeprojectcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|solutionrelative:pms.application\\features\\employeeproject\\command\\createemployeeproject\\createemployeeprojectcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|c:\\users\\jeorge oliver\\source\\real portfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.application\\features\\employeeproject\\command\\createemployeeproject\\createemployeeprojectcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|solutionrelative:pms.application\\features\\employeeproject\\command\\createemployeeproject\\createemployeeprojectcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|c:\\users\\jeorge oliver\\source\\real portfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.application\\extensions\\updateemployeeprojectcommandextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|solutionrelative:pms.application\\extensions\\updateemployeeprojectcommandextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D4F5207-FA69-489E-B2F5-01738ABE87D7}|PMS.Persistence\\PMS.Persistence.csproj|c:\\users\\jeorge oliver\\source\\real portfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.persistence\\dbcontext\\projdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D4F5207-FA69-489E-B2F5-01738ABE87D7}|PMS.Persistence\\PMS.Persistence.csproj|solutionrelative:pms.persistence\\dbcontext\\projdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|c:\\users\\jeorge oliver\\source\\real portfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.application\\extensions\\createemployeeprojectcommandextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|solutionrelative:pms.application\\extensions\\createemployeeprojectcommandextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|c:\\users\\jeorge oliver\\source\\real portfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.application\\features\\employeeproject\\command\\createemployeeproject\\createemployeeprojectcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|solutionrelative:pms.application\\features\\employeeproject\\command\\createemployeeproject\\createemployeeprojectcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|c:\\users\\jeorge oliver\\source\\real portfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.application\\features\\employee\\commands\\createemployee\\createemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|solutionrelative:pms.application\\features\\employee\\commands\\createemployee\\createemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,131 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProjectController.cs",
-              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Api\\Controllers\\ProjectController.cs",
-              "RelativeDocumentMoniker": "PMS.Api\\Controllers\\ProjectController.cs",
-              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Api\\Controllers\\ProjectController.cs",
-              "RelativeToolTip": "PMS.Api\\Controllers\\ProjectController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAABwAAAAgAAAAAAAAAA==",
+              "Title": "UpdateEmployeeCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\Employee\\Commands\\UpdateEmployee\\UpdateEmployeeCommandHandler.cs",
+              "RelativeDocumentMoniker": "PMS.Application\\Features\\Employee\\Commands\\UpdateEmployee\\UpdateEmployeeCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\Employee\\Commands\\UpdateEmployee\\UpdateEmployeeCommandHandler.cs",
+              "RelativeToolTip": "PMS.Application\\Features\\Employee\\Commands\\UpdateEmployee\\UpdateEmployeeCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T08:23:46.975Z",
+              "WhenOpened": "2025-05-14T09:25:45.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GetProjectWithTeamQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\Project\\Query\\GetProjectWithTeam\\GetProjectWithTeamQueryHandler.cs",
-              "RelativeDocumentMoniker": "PMS.Application\\Features\\Project\\Query\\GetProjectWithTeam\\GetProjectWithTeamQueryHandler.cs",
-              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\Project\\Query\\GetProjectWithTeam\\GetProjectWithTeamQueryHandler.cs",
-              "RelativeToolTip": "PMS.Application\\Features\\Project\\Query\\GetProjectWithTeam\\GetProjectWithTeamQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Api\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "PMS.Api\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Api\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "PMS.Api\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAowDIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T08:18:28.536Z",
+              "WhenOpened": "2025-05-14T09:13:44.769Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProjectRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Persistence\\Repositories\\ProjectRepository.cs",
-              "RelativeDocumentMoniker": "PMS.Persistence\\Repositories\\ProjectRepository.cs",
-              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Persistence\\Repositories\\ProjectRepository.cs",
-              "RelativeToolTip": "PMS.Persistence\\Repositories\\ProjectRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Title": "CreateEmployeeCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\Employee\\Commands\\CreateEmployee\\CreateEmployeeCommandHandler.cs",
+              "RelativeDocumentMoniker": "PMS.Application\\Features\\Employee\\Commands\\CreateEmployee\\CreateEmployeeCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\Employee\\Commands\\CreateEmployee\\CreateEmployeeCommandHandler.cs",
+              "RelativeToolTip": "PMS.Application\\Features\\Employee\\Commands\\CreateEmployee\\CreateEmployeeCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T08:09:07.037Z",
+              "WhenOpened": "2025-05-14T08:55:42.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EmployeeProjectController.cs",
-              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Api\\Controllers\\EmployeeProjectController.cs",
-              "RelativeDocumentMoniker": "PMS.Api\\Controllers\\EmployeeProjectController.cs",
-              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Api\\Controllers\\EmployeeProjectController.cs",
-              "RelativeToolTip": "PMS.Api\\Controllers\\EmployeeProjectController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCEAAAAeAAAAAAAAAA==",
+              "Title": "CreateEmployeeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\Employee\\Commands\\CreateEmployee\\CreateEmployeeCommand.cs",
+              "RelativeDocumentMoniker": "PMS.Application\\Features\\Employee\\Commands\\CreateEmployee\\CreateEmployeeCommand.cs",
+              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\Employee\\Commands\\CreateEmployee\\CreateEmployeeCommand.cs",
+              "RelativeToolTip": "PMS.Application\\Features\\Employee\\Commands\\CreateEmployee\\CreateEmployeeCommand.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T04:54:05.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProjdbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Persistence\\DbContext\\ProjdbContext.cs",
-              "RelativeDocumentMoniker": "PMS.Persistence\\DbContext\\ProjdbContext.cs",
-              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Persistence\\DbContext\\ProjdbContext.cs",
-              "RelativeToolTip": "PMS.Persistence\\DbContext\\ProjdbContext.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAwwGUAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T04:49:26.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CreateEmployeeProjectCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\EmployeeProject\\Command\\CreateEmployeeProject\\CreateEmployeeProjectCommand.cs",
-              "RelativeDocumentMoniker": "PMS.Application\\Features\\EmployeeProject\\Command\\CreateEmployeeProject\\CreateEmployeeProjectCommand.cs",
-              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\EmployeeProject\\Command\\CreateEmployeeProject\\CreateEmployeeProjectCommand.cs",
-              "RelativeToolTip": "PMS.Application\\Features\\EmployeeProject\\Command\\CreateEmployeeProject\\CreateEmployeeProjectCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T04:48:01.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UpdateEmployeeProjectCommandExtension.cs",
-              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Extensions\\UpdateEmployeeProjectCommandExtension.cs",
-              "RelativeDocumentMoniker": "PMS.Application\\Extensions\\UpdateEmployeeProjectCommandExtension.cs",
-              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Extensions\\UpdateEmployeeProjectCommandExtension.cs",
-              "RelativeToolTip": "PMS.Application\\Extensions\\UpdateEmployeeProjectCommandExtension.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAlwBMAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T04:44:32.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CreateEmployeeProjectCommandExtension.cs",
-              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Extensions\\CreateEmployeeProjectCommandExtension.cs",
-              "RelativeDocumentMoniker": "PMS.Application\\Extensions\\CreateEmployeeProjectCommandExtension.cs",
-              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Extensions\\CreateEmployeeProjectCommandExtension.cs",
-              "RelativeToolTip": "PMS.Application\\Extensions\\CreateEmployeeProjectCommandExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T04:37:47.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreateEmployeeProjectCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\EmployeeProject\\Command\\CreateEmployeeProject\\CreateEmployeeProjectCommandValidator.cs",
-              "RelativeDocumentMoniker": "PMS.Application\\Features\\EmployeeProject\\Command\\CreateEmployeeProject\\CreateEmployeeProjectCommandValidator.cs",
-              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\EmployeeProject\\Command\\CreateEmployeeProject\\CreateEmployeeProjectCommandValidator.cs",
-              "RelativeToolTip": "PMS.Application\\Features\\EmployeeProject\\Command\\CreateEmployeeProject\\CreateEmployeeProjectCommandValidator.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBQAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T04:28:48.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateEmployeeProjectCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\EmployeeProject\\Command\\CreateEmployeeProject\\CreateEmployeeProjectCommandHandler.cs",
-              "RelativeDocumentMoniker": "PMS.Application\\Features\\EmployeeProject\\Command\\CreateEmployeeProject\\CreateEmployeeProjectCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\EmployeeProject\\Command\\CreateEmployeeProject\\CreateEmployeeProjectCommandHandler.cs",
-              "RelativeToolTip": "PMS.Application\\Features\\EmployeeProject\\Command\\CreateEmployeeProject\\CreateEmployeeProjectCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T04:28:45.789Z",
+              "WhenOpened": "2025-05-14T08:53:20.197Z",
               "EditorCaption": ""
             }
           ]
