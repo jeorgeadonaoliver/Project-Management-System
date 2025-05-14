@@ -5,6 +5,7 @@ using PMS.Application.Features.Project.Command.CreateProject;
 using PMS.Application.Features.Project.Command.UpdateProject;
 using PMS.Application.Features.Project.Query;
 using PMS.Application.Features.Project.Query.GetProjectDetail;
+using PMS.Application.Features.Project.Query.GetProjectWithTeam;
 
 namespace PMS.Api.Controllers
 {
@@ -22,6 +23,13 @@ namespace PMS.Api.Controllers
         public async Task<IActionResult> Get() 
         {
             var result = await _mediator.Send(new GetProjectQuery());
+            return Ok(result);
+        }
+
+        [HttpGet("projectteam")]
+        public async Task<IActionResult> GetAll ()
+        {
+            var result = await _mediator.Send(new GetProjectWithTeamQuery());
             return Ok(result);
         }
 

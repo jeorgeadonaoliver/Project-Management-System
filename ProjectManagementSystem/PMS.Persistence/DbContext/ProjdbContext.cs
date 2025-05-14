@@ -95,7 +95,7 @@ public partial class ProjdbContext : DbContext
 
         modelBuilder.Entity<EmployeeProject>(entity =>
         {
-            entity.HasKey(e => new { e.EmployeeId, e.ProjectId }).HasName("PK__Employee__6DB1E41CB7BE75DE");
+            entity.HasKey(e => new { e.Id }).HasName("PK_EmployeeProjects");
 
             entity.Property(e => e.EmployeeId).HasColumnName("EmployeeID");
             entity.Property(e => e.ProjectId).HasColumnName("ProjectID");

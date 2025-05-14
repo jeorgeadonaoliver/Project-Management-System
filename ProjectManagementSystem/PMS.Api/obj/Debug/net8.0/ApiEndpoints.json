@@ -110,6 +110,70 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "PMS.Api.Controllers.EmployeeProjectController",
+    "Method": "Update",
+    "RelativePath": "api/EmployeeProject",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cmd",
+        "Type": "PMS.Application.Features.EmployeeProject.Command.UpdateEmployeeProject.UpdateEmployeeProjectCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.Api.Controllers.EmployeeProjectController",
+    "Method": "Create",
+    "RelativePath": "api/EmployeeProject",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cmd",
+        "Type": "PMS.Application.Features.EmployeeProject.Command.CreateEmployeeProject.CreateEmployeeProjectCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.Api.Controllers.EmployeeProjectController",
+    "Method": "Get",
+    "RelativePath": "api/EmployeeProject/employee/{employeeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.Api.Controllers.EmployeeProjectController",
+    "Method": "GetProject",
+    "RelativePath": "api/EmployeeProject/project/{projectId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PMS.Api.Controllers.JobController",
     "Method": "Get",
     "RelativePath": "api/Job",
@@ -170,6 +234,16 @@
   {
     "ContainingType": "PMS.Api.Controllers.ProjectController",
     "Method": "Get",
+    "RelativePath": "api/Project",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.Api.Controllers.ProjectController",
+    "Method": "GetAll",
     "RelativePath": "api/Project",
     "HttpMethod": "GET",
     "IsController": true,

@@ -9,6 +9,7 @@ namespace PMS.Application.Contracts.Persistence
 {
     public interface IProjectRepository : IGenericRepository<Project>
     {
+        public Task<IEnumerable<Project>> GetAllDetails();
         public Task<Project> GetById(int id);
 
         public Task<bool> GetAny(string name);

@@ -10,6 +10,10 @@ namespace PMS.Application.Contracts.Persistence
     public interface IEmployeeProjectsRepository : IGenericRepository<EmployeeProject>
     {
 
-        Task<bool> GetAny(string role);
+        Task<bool> GetAny(int employeeId, int projectID);
+
+        Task<IEnumerable<EmployeeProject>> GetById(int emloyeeId);
+
+        Task<IEnumerable<EmployeeProject>> GetByProjectId(int projectId);
     }
 }

@@ -13,6 +13,14 @@ namespace PMS.Persistence.Repositories
     {
         public ProjectRepository(ProjdbContext context) : base(context) { }
 
+        public async Task<IEnumerable<Project>> GetAllDetails() 
+        {
+            return await _context.Set<Project>()
+                .Include(x => x.Team)
+                .AsNoTracking()
+                .ToListAsync();
+        }
+
         public async Task<bool> GetAny(string name)
         {
             return await _context.Set<Project>().AnyAsync(x => x.ProjectName == name);

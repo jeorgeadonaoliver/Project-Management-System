@@ -26,7 +26,6 @@ Employee:
 [X] Get All Employee
 [X] Get Employee Detail
 [X] Get Employee by Team or Department
-[ ] Get Employee by Project
 [ ] Create Employee
 [ ] Update Employee
 
@@ -40,8 +39,9 @@ Project:
 Employee Project:
 
 [X] Get All Employee Project
-[ ] Create Employee Project
-[ ] Update Employee Project
+[X] Create Employee Project
+[X] Update Employee Project
+[X] Get Project by Employee
 
 
 Employee Management:
@@ -74,7 +74,7 @@ Employee Management:
 Team Management:
 
 [X] Implement API endpoint/function to retrieve all teams:
-[ ] Construct and execute a SELECT SQL query from the Teams table.
+[X] Construct and execute a SELECT SQL query from the Teams table.
 [X] Return the list of teams.
 [X] Implement API endpoint/function to retrieve employees by team:
 [X] Define the endpoint/function to accept TeamID.
@@ -83,32 +83,32 @@ Team Management:
 
 Project Management:
 
-[ ] Implement API endpoint/function to retrieve all projects:
-[ ] Construct and execute a SELECT SQL query from the Projects table, potentially joining with Teams to show the responsible team.
+[X] Implement API endpoint/function to retrieve all projects:
+[X] Construct and execute a SELECT SQL query from the Projects table, potentially joining with Teams to show the responsible team.
 [X] Return the list of projects.
-[ ] Implement API endpoint/function to retrieve employees by project:
-[ ] Define the endpoint/function to accept ProjectID.
-[ ] Construct a SELECT SQL query joining Employees, EmployeeProjects, and Projects with a WHERE clause on ProjectID. Include the employee's RoleInProject.
-[ ] Return the list of employees and their roles for the specified project.
+[X] Implement API endpoint/function to retrieve employees by project:
+[X] Define the endpoint/function to accept ProjectID.
+[X] Construct a SELECT SQL query joining Employees, EmployeeProjects, and Projects with a WHERE clause on ProjectID. Include the employee's RoleInProject.
+[X] Return the list of employees and their roles for the specified project.
 
 Employee-Project Assignment:
 
 [ ] Implement API endpoint/function to assign an employee to a project:
-[ ] Define the endpoint/function to accept EmployeeID, ProjectID, and RoleInProject.
-[ ] Validate that EmployeeID and ProjectID exist.
-[ ] Construct and execute an INSERT SQL query into EmployeeProjects.
-[ ] Handle potential duplicate assignments.
+[X] Define the endpoint/function to accept EmployeeID, ProjectID, and RoleInProject.
+[X] Validate that EmployeeID and ProjectID exist.
+[X] Construct and execute an INSERT SQL query into EmployeeProjects.
+[X] Handle potential duplicate assignments.
 [ ] Return a success/error response.
-[ ] Implement API endpoint/function to retrieve projects for an employee:
+[X] Implement API endpoint/function to retrieve projects for an employee:
 [X] Define the endpoint/function to accept EmployeeID.
-[ ] Construct a SELECT SQL query joining Employees, EmployeeProjects, and Projects with a WHERE clause on EmployeeID. Include project names and RoleInProject.
-[ ] Return the list of projects for the specified employee.
+[X] Construct a SELECT SQL query joining Employees, EmployeeProjects, and Projects with a WHERE clause on EmployeeID. Include project names and RoleInProject.
+[X] Return the list of projects for the specified employee.
 
 Optional Enhancements (If Time Permits):
 
 [X] Implement API endpoint/function to add a new team.
 [X] Implement API endpoint/function to add a new project.
-[ ] Implement API endpoint/function to assign a team to a project.
+[X] Implement API endpoint/function to assign a team to a project.
 
 Remember to:
 

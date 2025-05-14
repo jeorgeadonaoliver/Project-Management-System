@@ -1,5 +1,6 @@
 ﻿using PMS.Application.Features.Project.Query;
 using PMS.Application.Features.Project.Query.GetProjectDetail;
+using PMS.Application.Features.Project.Query.GetProjectWithTeam;
 using PMS.Persistence.Models;
 using System;
 using System.Collections.Generic;
@@ -34,6 +35,20 @@ namespace PMS.Application.Extensions
                 ProjectName = project.ProjectName,
                 StartDate = project.StartDate,
                 TeamId = project.TeamId
+            };
+        }
+
+        public static GetProjectWithTeamQueryDto MapToGetProjectWithTeamQueryDto(this Project project)
+        {
+            return new GetProjectWithTeamQueryDto 
+            {
+                ProjectId = project.ProjectId,
+                Description = project.Description,
+                EndDate = project.EndDate,
+                ProjectName = project.ProjectName,
+                StartDate = project.StartDate,
+                TeamId = project.TeamId,
+                TeamName = project.Team.TeamName
             };
         }
     }

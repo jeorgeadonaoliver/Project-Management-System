@@ -1,4 +1,5 @@
 ﻿using PMS.Application.Features.EmployeeProject.Query;
+using PMS.Application.Features.EmployeeProject.Query.GetEmployeeProjectByEmployee;
 using PMS.Persistence.Models;
 using System;
 using System.Collections.Generic;
@@ -16,6 +17,18 @@ namespace PMS.Application.Extensions
             {
                 EmployeeId = employeeProject.EmployeeId,
                 ProjectId = employeeProject.ProjectId,
+                RoleInProject = employeeProject.RoleInProject
+            };
+        }
+
+        public static GetEmployeeProjectByEmployeeQueryDto MapToGetEmployeeByProjectQueryDto(this EmployeeProject employeeProject) 
+        {
+            return new GetEmployeeProjectByEmployeeQueryDto { 
+            
+                EmployeeId = employeeProject.EmployeeId,
+                EmployeeName = employeeProject.Employee.LastName + ", " + employeeProject.Employee.FirstName,
+                ProjectId = employeeProject.ProjectId,
+                ProjectName = employeeProject.Project.ProjectName,
                 RoleInProject = employeeProject.RoleInProject
             };
         }
