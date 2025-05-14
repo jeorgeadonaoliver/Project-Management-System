@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PMS.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b3a5439af4675d604151aa77a53bf8d9123128a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e47378ece9d805c331fba37e4c8c83401c7cfa41")]
 [assembly: System.Reflection.AssemblyProductAttribute("PMS.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PMS.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

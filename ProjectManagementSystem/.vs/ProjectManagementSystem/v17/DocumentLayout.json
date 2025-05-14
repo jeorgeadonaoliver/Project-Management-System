@@ -55,8 +55,7 @@
               "RelativeToolTip": "PMS.Api\\Controllers\\EmployeeController.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAowDIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T09:13:44.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T09:13:44.769Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "PMS.Application\\Features\\Employee\\Commands\\CreateEmployee\\CreateEmployeeCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T08:55:42.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T08:55:42.312Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "PMS.Application\\Features\\Employee\\Commands\\CreateEmployee\\CreateEmployeeCommand.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T08:53:20.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T08:53:20.197Z"
             }
           ]
         }
