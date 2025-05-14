@@ -50,7 +50,7 @@ Employee Management:
 [X] Define the input data structure (e.g., request body).
 [ ] Implement data validation for all required fields.
 [ ] Validate email format and uniqueness.
-[ ] Query Jobs, Departments, and Roles tables to verify IDs.
+[X] Query Jobs, Departments, and Roles tables to verify IDs.
 [X] Construct and execute the INSERT SQL query.
 [ ] Implement error handling for database operations.
 [X] Return a success/error response (e.g., JSON).
@@ -62,7 +62,7 @@ Employee Management:
 [X] Implement API endpoint/function to update employee information:
 [X] Define the endpoint/function to employee update data.
 [ ] Implement data validation for updated fields.
-[ ] Construct and execute the UPDATE SQL query based on EmployeeID.
+[X] Construct and execute the UPDATE SQL query based on EmployeeID.
 [ ] Ensure foreign key constraints are respected during updates.
 [ ] Implement error handling and return a success/error response.
 [X] Implement API endpoint/function to list all employees (with optional filtering):
@@ -93,7 +93,7 @@ Project Management:
 
 Employee-Project Assignment:
 
-[ ] Implement API endpoint/function to assign an employee to a project:
+[X] Implement API endpoint/function to assign an employee to a project:
 [X] Define the endpoint/function to accept EmployeeID, ProjectID, and RoleInProject.
 [X] Validate that EmployeeID and ProjectID exist.
 [X] Construct and execute an INSERT SQL query into EmployeeProjects.
