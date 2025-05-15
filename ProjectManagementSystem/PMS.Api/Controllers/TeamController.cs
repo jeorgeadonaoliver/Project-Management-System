@@ -18,28 +18,28 @@ namespace PMS.Api.Controllers
             _mediator = mediator;
         }
 
-        [HttpGet]
+        [HttpGet("Get")]
         public async Task<IActionResult> Get() 
         {
             var result = await _mediator.Send(new GetTeamsQuery());
             return Ok(result);
         }
 
-        [HttpGet("id")]
+        [HttpGet("GetById/{id}")]
         public async Task<IActionResult> GetById(int id) 
         {
             var result = await _mediator.Send(new GetTeamDetailQuery(id));
             return Ok(result);
         }
 
-        [HttpPut]
+        [HttpPut("Update")]
         public async Task<IActionResult> Update(UpdateTeamCommand command) 
         {
             var result = await _mediator.Send(command);
             return Ok("Updating Team detail successful!");
         }
 
-        [HttpPost]
+        [HttpPost("Create")]
         public async Task<IActionResult> Create(CreateTeamCommand command)
         {
             var result = await _mediator.Send(command);

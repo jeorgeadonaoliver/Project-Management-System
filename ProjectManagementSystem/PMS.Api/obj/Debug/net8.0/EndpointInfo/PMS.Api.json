@@ -573,7 +573,7 @@
         }
       }
     },
-    "/api/Team": {
+    "/api/Team/Get": {
       "get": {
         "tags": [
           "Team"
@@ -583,7 +583,32 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/Team/GetById/{id}": {
+      "get": {
+        "tags": [
+          "Team"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Team/Update": {
       "put": {
         "tags": [
           "Team"
@@ -612,7 +637,9 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/Team/Create": {
       "post": {
         "tags": [
           "Team"
@@ -636,28 +663,6 @@
             }
           }
         },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Team/id": {
-      "get": {
-        "tags": [
-          "Team"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
         "responses": {
           "200": {
             "description": "OK"

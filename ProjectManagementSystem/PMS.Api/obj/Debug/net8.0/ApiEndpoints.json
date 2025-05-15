@@ -359,34 +359,8 @@
   },
   {
     "ContainingType": "PMS.Api.Controllers.TeamController",
-    "Method": "Get",
-    "RelativePath": "api/Team",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PMS.Api.Controllers.TeamController",
-    "Method": "Update",
-    "RelativePath": "api/Team",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "command",
-        "Type": "PMS.Application.Features.Team.Command.UpdateTeam.UpdateTeamCommand",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PMS.Api.Controllers.TeamController",
     "Method": "Create",
-    "RelativePath": "api/Team",
+    "RelativePath": "api/Team/Create",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -401,8 +375,18 @@
   },
   {
     "ContainingType": "PMS.Api.Controllers.TeamController",
+    "Method": "Get",
+    "RelativePath": "api/Team/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.Api.Controllers.TeamController",
     "Method": "GetById",
-    "RelativePath": "api/Team/id",
+    "RelativePath": "api/Team/GetById/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -410,7 +394,23 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PMS.Api.Controllers.TeamController",
+    "Method": "Update",
+    "RelativePath": "api/Team/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "PMS.Application.Features.Team.Command.UpdateTeam.UpdateTeamCommand",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
