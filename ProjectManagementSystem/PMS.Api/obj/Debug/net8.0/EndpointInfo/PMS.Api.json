@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Department": {
+    "/api/Department/Get": {
       "get": {
         "tags": [
           "Department"
@@ -15,7 +15,32 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/Department/GetById/{id}": {
+      "get": {
+        "tags": [
+          "Department"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Department/Create": {
       "post": {
         "tags": [
           "Department"
@@ -44,7 +69,9 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/Department/Update": {
       "put": {
         "tags": [
           "Department"
@@ -75,29 +102,7 @@
         }
       }
     },
-    "/api/Department/id": {
-      "get": {
-        "tags": [
-          "Department"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Employee": {
+    "/api/Employee/Get": {
       "get": {
         "tags": [
           "Employee"
@@ -109,7 +114,7 @@
         }
       }
     },
-    "/api/Employee/search": {
+    "/api/Employee/GetByDepTeam": {
       "post": {
         "tags": [
           "Employee"
@@ -140,7 +145,7 @@
         }
       }
     },
-    "/api/Employee/employeeId": {
+    "/api/Employee/GetById/{id}": {
       "get": {
         "tags": [
           "Employee"
@@ -148,7 +153,8 @@
         "parameters": [
           {
             "name": "id",
-            "in": "query",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -162,7 +168,7 @@
         }
       }
     },
-    "/api/Employee/addemployee": {
+    "/api/Employee/Create": {
       "post": {
         "tags": [
           "Employee"
@@ -193,7 +199,7 @@
         }
       }
     },
-    "/api/Employee/updateemployee": {
+    "/api/Employee/Update": {
       "put": {
         "tags": [
           "Employee"
@@ -224,7 +230,7 @@
         }
       }
     },
-    "/api/EmployeeProject": {
+    "/api/EmployeeProject/Get": {
       "get": {
         "tags": [
           "EmployeeProject"
@@ -234,7 +240,55 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/EmployeeProject/GetByEmployeeId/{id}": {
+      "get": {
+        "tags": [
+          "EmployeeProject"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/EmployeeProject/GetByProjectId/{id}": {
+      "get": {
+        "tags": [
+          "EmployeeProject"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/EmployeeProject/Update": {
       "put": {
         "tags": [
           "EmployeeProject"
@@ -263,7 +317,9 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/EmployeeProject/Create": {
       "post": {
         "tags": [
           "EmployeeProject"
@@ -294,53 +350,7 @@
         }
       }
     },
-    "/api/EmployeeProject/employee/{employeeId}": {
-      "get": {
-        "tags": [
-          "EmployeeProject"
-        ],
-        "parameters": [
-          {
-            "name": "employeeId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/EmployeeProject/project/{projectId}": {
-      "get": {
-        "tags": [
-          "EmployeeProject"
-        ],
-        "parameters": [
-          {
-            "name": "projectId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Job": {
+    "/api/Job/Get": {
       "get": {
         "tags": [
           "Job"
@@ -350,67 +360,9 @@
             "description": "OK"
           }
         }
-      },
-      "put": {
-        "tags": [
-          "Job"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UpdateJobCommand"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UpdateJobCommand"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/UpdateJobCommand"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "post": {
-        "tags": [
-          "Job"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateJobCommand"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateJobCommand"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateJobCommand"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
       }
     },
-    "/api/Job/{id}": {
+    "/api/Job/GetById/{id}": {
       "get": {
         "tags": [
           "Job"
@@ -433,7 +385,69 @@
         }
       }
     },
-    "/api/Project": {
+    "/api/Job/Update": {
+      "put": {
+        "tags": [
+          "Job"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateJobCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateJobCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateJobCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Job/Create": {
+      "post": {
+        "tags": [
+          "Job"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateJobCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateJobCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateJobCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Project/Get": {
       "get": {
         "tags": [
           "Project"
@@ -443,7 +457,44 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/Project/GetProjectWithTeam": {
+      "get": {
+        "tags": [
+          "Project"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Project/GetById/{id}": {
+      "get": {
+        "tags": [
+          "Project"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Project/Create": {
       "post": {
         "tags": [
           "Project"
@@ -472,7 +523,9 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/Project/Update": {
       "put": {
         "tags": [
           "Project"
@@ -503,42 +556,7 @@
         }
       }
     },
-    "/api/Project/projectteam": {
-      "get": {
-        "tags": [
-          "Project"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Project/{id}": {
-      "get": {
-        "tags": [
-          "Project"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Role": {
+    "/api/Role/Get": {
       "get": {
         "tags": [
           "Role"
@@ -550,7 +568,7 @@
         }
       }
     },
-    "/api/Role/{id}": {
+    "/api/Role/GetById/{id}": {
       "get": {
         "tags": [
           "Role"
@@ -566,6 +584,68 @@
             }
           }
         ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Role/Create": {
+      "post": {
+        "tags": [
+          "Role"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateRoleCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateRoleCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateRoleCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Role/Update": {
+      "put": {
+        "tags": [
+          "Role"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateRoleCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateRoleCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateRoleCommand"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -810,6 +890,20 @@
         },
         "additionalProperties": false
       },
+      "CreateRoleCommand": {
+        "type": "object",
+        "properties": {
+          "roleName": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "CreateTeamCommand": {
         "type": "object",
         "properties": {
@@ -990,6 +1084,24 @@
           "teamId": {
             "type": "integer",
             "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateRoleCommand": {
+        "type": "object",
+        "properties": {
+          "roleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "roleName": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
             "nullable": true
           }
         },

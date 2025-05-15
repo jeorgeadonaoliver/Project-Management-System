@@ -18,6 +18,11 @@ namespace PMS.Persistence.Repositories
             return await _context.Set<Role>().AnyAsync(x => x.RoleName == name);
         }
 
+        public async Task<bool> GetAny(int  id)
+        {
+            return await _context.Set<Role>().AnyAsync(x => x.RoleId == id);
+        }
+
         public async Task<Role> GetById(int id)
         {
             return await _context.Set<Role>().FirstOrDefaultAsync(x => x.RoleId == id);

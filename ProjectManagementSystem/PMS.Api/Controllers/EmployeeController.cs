@@ -20,35 +20,35 @@ namespace PMS.Api.Controllers
             this._mediator = mediator;
         }
 
-        [HttpGet]
+        [HttpGet("Get")]
         public async Task<IActionResult> GetAll()
         {
             var data = await _mediator.Send(new GetAllEmployeeQuery());
             return Ok(data);
         }
 
-        [HttpPost("search")]
+        [HttpPost("GetByDepTeam")]
         public async Task<IActionResult> GetAllByDepartmentOrTeam([FromBody] EmployeeRequestModel request)
         {
             var data = await _mediator.Send(new GetEmployeeByDepartmentOrTeamQuery(request.DepartmentOrTem,request.Id));
             return Ok(data);
         }
 
-        [HttpGet("employeeId")]
+        [HttpGet("GetById/{id}")]
         public async Task<IActionResult> GetAllById(int id)
         {
             var data = await _mediator.Send(new GetEmployeeDetailsQuery(id));
             return Ok(data);
         }
 
-        [HttpPost("addemployee")]
+        [HttpPost("Create")]
         public async Task<IActionResult> Create([FromBody]CreateEmployeeCommand cmd)
         {
             var data = await _mediator.Send(cmd);
             return Ok("Employee has been Successfully ADDED.");
         }
 
-        [HttpPut("updateemployee")]
+        [HttpPut("Update")]
         public async Task<IActionResult> Update([FromBody]UpdateEmployeeCommand cmd)
         {
             var data = await _mediator.Send(cmd);

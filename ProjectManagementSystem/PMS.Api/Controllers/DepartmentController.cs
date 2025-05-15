@@ -19,7 +19,7 @@ namespace PMS.Api.Controllers
             _mediator = mediator;
         }
 
-        [HttpGet]
+        [HttpGet("Get")]
         public async Task<IActionResult> Get() {
 
             var result = await _mediator.Send(new GetDepartmentQuery());
@@ -27,7 +27,7 @@ namespace PMS.Api.Controllers
         }
 
 
-        [HttpGet("id")]
+        [HttpGet("GetById/{id}")]
         public async Task<IActionResult> Get(int id)
         {
 
@@ -35,7 +35,7 @@ namespace PMS.Api.Controllers
             return Ok(result);
         }
 
-        [HttpPost]
+        [HttpPost("Create")]
         public async Task<IActionResult> Create(CreateDepartmentCommand cmd) 
         {
             await _mediator.Send(cmd);
@@ -43,7 +43,7 @@ namespace PMS.Api.Controllers
         }
 
 
-        [HttpPut]
+        [HttpPut("Update")]
         public async Task<IActionResult> Update(UpdateDepartmentCommand cmd)
         {
             await _mediator.Send(cmd);

@@ -1,5 +1,3 @@
-//THIS HANDLE ALL API CALLS RELATED TO TEAMS
-//THIS FILE IS FOR API CALLS ONLY, NO LOGIC OR STATE MANAGEMENT
 
 import { Team } from '../types/team';
 import api from './api'

@@ -19,35 +19,35 @@ namespace PMS.Api.Controllers
             _mediator = mediator;
         }
 
-        [HttpGet]
+        [HttpGet("Get")]
         public async Task<IActionResult> Get() 
         {
             var result = await _mediator.Send(new GetProjectQuery());
             return Ok(result);
         }
 
-        [HttpGet("projectteam")]
+        [HttpGet("GetProjectWithTeam")]
         public async Task<IActionResult> GetAll ()
         {
             var result = await _mediator.Send(new GetProjectWithTeamQuery());
             return Ok(result);
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("GetById/{id}")]
         public async Task<IActionResult> GetById(int id) 
         {
             var result = await _mediator.Send(new GetProjectDetailQuery(id));
             return Ok(result);
         }
 
-        [HttpPost]
+        [HttpPost("Create")]
         public async Task<IActionResult> Create(CreateProjectCommand command) 
         {
             var result = await _mediator.Send(command);
             return Ok("Creating Project Successful!");
         }
 
-        [HttpPut]
+        [HttpPut("Update")]
         public async Task<IActionResult> Update(UpdateProjectCommand command) 
         {
             var result = await _mediator.Send(command);

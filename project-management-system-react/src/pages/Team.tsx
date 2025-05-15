@@ -1,6 +1,9 @@
 import { useState } from "react";
-import { useCreateTeam, useTeams, useUpdateTeam } from "../hooks/team/useTeams";
+
 import { useQueryClient } from "@tanstack/react-query";
+import useTeams from "../hooks/team/query/useGetTeams";
+import useCreateTeam from "../hooks/team/query/useCreateTeam";
+import useUpdateTeam from "../hooks/team/query/useUpdateTeam";
 
 function TeamList(){
     const queryClient = useQueryClient();
@@ -25,7 +28,7 @@ function TeamList(){
       <ul>
         {teams?.map((item) => (
           <li key={item.teamId}>
-            {editingId === item.teamId ? (
+            {editingId === item.teamId ? (//If team ID is equal to editing ID, show edit form
               <>
                 <input
                   type="text"
@@ -56,7 +59,7 @@ function TeamList(){
                 </button>
                 <button onClick={() => setEditingId(null)}>Cancel</button>
               </>
-            ) : (
+            ) : ( //If team ID is not equal to editing ID, show item name and description and edit button
               <>
                 {item.teamName} - {item.description}
                 <button

@@ -20,35 +20,35 @@ namespace PMS.Api.Controllers
             _mediator = mediator;
         }
 
-        [HttpGet]
+        [HttpGet("Get")]
         public async Task<IActionResult> Get() 
         {
             var result = await _mediator.Send(new GetEmployeeProjectQuery());
             return Ok(result);
         }
 
-        [HttpGet("employee/{employeeId}")]
-        public async Task<IActionResult> Get(int employeeId) 
+        [HttpGet("GetByEmployeeId/{id}")]
+        public async Task<IActionResult> Get(int id) 
         {
-            var result = await _mediator.Send(new GetEmployeeProjectByEmployeeQuery(employeeId));
+            var result = await _mediator.Send(new GetEmployeeProjectByEmployeeQuery(id));
             return Ok(result);
         }
 
-        [HttpGet("project/{projectId}")]
-        public async Task<IActionResult> GetProject(int projectId)
+        [HttpGet("GetByProjectId/{id}")]
+        public async Task<IActionResult> GetProject(int id)
         {
-            var result = await _mediator.Send(new GetEmployeeProjectByProjectQuery(projectId));
+            var result = await _mediator.Send(new GetEmployeeProjectByProjectQuery(id));
             return Ok(result);
         }
 
-        [HttpPut]
+        [HttpPut("Update")]
         public async Task<IActionResult> Update(UpdateEmployeeProjectCommand cmd) 
         {
             var result = await _mediator.Send(cmd);
             return Ok("EmployeeProject Detail has been Updated successfully.");
         }
 
-        [HttpPost]
+        [HttpPost("Create")]
         public async Task<IActionResult> Create(CreateEmployeeProjectCommand cmd)
         {
             var result = await _mediator.Send(cmd);
