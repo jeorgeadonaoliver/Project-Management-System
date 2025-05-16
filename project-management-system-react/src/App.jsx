@@ -1,14 +1,15 @@
-
 import './App.css'
-import TeamList from './pages/Team'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import {MainLayout}  from './layouts/MainLayout'
+import {TeamList} from './pages/Team'
 
 function App() {
-
-
   return (
-    <>
-      <TeamList></TeamList>
-    </>
+    <Router>
+      <Routes path="/layout" element={<MainLayout />}>
+          <Route path="/layout/team-list" element={<TeamList/>} />
+      </Routes>
+    </Router>
   )
 }
 

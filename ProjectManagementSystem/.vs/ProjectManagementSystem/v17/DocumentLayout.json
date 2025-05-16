@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|c:\\users\\jeorge oliver\\source\\real portfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.application\\extensions\\employeeprojectextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|solutionrelative:pms.application\\extensions\\employeeprojectextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D4F5207-FA69-489E-B2F5-01738ABE87D7}|PMS.Persistence\\PMS.Persistence.csproj|c:\\users\\jeorge oliver\\source\\real portfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.persistence\\repositories\\employeeprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D4F5207-FA69-489E-B2F5-01738ABE87D7}|PMS.Persistence\\PMS.Persistence.csproj|solutionrelative:pms.persistence\\repositories\\employeeprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|c:\\users\\jeorge oliver\\source\\real portfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.application\\features\\employeeproject\\query\\getemployeeprojectqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|solutionrelative:pms.application\\features\\employeeproject\\query\\getemployeeprojectqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,50 +9,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeeProjectRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Persistence\\Repositories\\EmployeeProjectRepository.cs",
-              "RelativeDocumentMoniker": "PMS.Persistence\\Repositories\\EmployeeProjectRepository.cs",
-              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Persistence\\Repositories\\EmployeeProjectRepository.cs",
-              "RelativeToolTip": "PMS.Persistence\\Repositories\\EmployeeProjectRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T07:14:55.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeeProjectExtension.cs",
-              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Extensions\\EmployeeProjectExtension.cs",
-              "RelativeDocumentMoniker": "PMS.Application\\Extensions\\EmployeeProjectExtension.cs",
-              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Extensions\\EmployeeProjectExtension.cs",
-              "RelativeToolTip": "PMS.Application\\Extensions\\EmployeeProjectExtension.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T05:57:33.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetEmployeeProjectQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\EmployeeProject\\Query\\GetEmployeeProjectQueryHandler.cs",
-              "RelativeDocumentMoniker": "PMS.Application\\Features\\EmployeeProject\\Query\\GetEmployeeProjectQueryHandler.cs",
-              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\EmployeeProject\\Query\\GetEmployeeProjectQueryHandler.cs",
-              "RelativeToolTip": "PMS.Application\\Features\\EmployeeProject\\Query\\GetEmployeeProjectQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T05:57:31.038Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }

@@ -5,7 +5,7 @@ import useGetTeams from "../hooks/team/query/useGetTeams";
 import useCreateTeam from "../hooks/team/query/useCreateTeam";
 import useUpdateTeam from "../hooks/team/query/useUpdateTeam";
 
-function TeamList(){
+export const TeamList = () => {
     const queryClient = useQueryClient();
     
     const{data: teams, isLoading, error} = useGetTeams();
@@ -102,5 +102,3 @@ function TeamList(){
     </div>
   );
 }
-
-export default TeamList;

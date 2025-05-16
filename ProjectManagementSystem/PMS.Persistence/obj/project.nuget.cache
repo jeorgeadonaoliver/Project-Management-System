@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0UOvzBjm7Rk=",
+  "dgSpecHash": "UVDsiLABR2M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectMAnagementSystem\\PMS.Persistence\\PMS.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Persistence\\PMS.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
