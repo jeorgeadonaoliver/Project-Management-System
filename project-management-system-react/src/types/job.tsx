@@ -1,5 +1,5 @@
 export interface Job{
-      jobId: number;
+    jobId?: number;
     jobTitle: string;
     minSalary: number;
     maxSalary: number;

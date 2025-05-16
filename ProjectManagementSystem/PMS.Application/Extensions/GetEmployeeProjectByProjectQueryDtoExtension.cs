@@ -18,7 +18,9 @@ namespace PMS.Application.Extensions
                 EmployeeName = empPrj.Employee.LastName + ", " + empPrj.Employee.FirstName,
                 ProjectId = empPrj.ProjectId,
                 ProjectName = empPrj.Project.ProjectName,
+                ProjectDescription = empPrj.Project.Description,
                 RoleInProject = empPrj.RoleInProject,
+                Id = empPrj.Id
             };
         }
     }

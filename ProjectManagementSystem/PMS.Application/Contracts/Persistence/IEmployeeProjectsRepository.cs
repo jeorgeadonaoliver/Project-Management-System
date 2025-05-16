@@ -15,5 +15,7 @@ namespace PMS.Application.Contracts.Persistence
         Task<IEnumerable<EmployeeProject>> GetById(int emloyeeId);
 
         Task<IEnumerable<EmployeeProject>> GetByProjectId(int projectId);
+
+        Task<IEnumerable<EmployeeProject>> GetAll();
     }
 }

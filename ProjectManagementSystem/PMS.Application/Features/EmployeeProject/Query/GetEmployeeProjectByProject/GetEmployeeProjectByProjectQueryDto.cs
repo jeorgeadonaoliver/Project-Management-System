@@ -8,6 +8,8 @@ namespace PMS.Application.Features.EmployeeProject.Query.GetEmployeeProjectByPro
 {
     public class GetEmployeeProjectByProjectQueryDto
     {
+        public int Id { get; set; }
+
         public int EmployeeId { get; set; }
 
         public string EmployeeName { get; set; } = string.Empty;

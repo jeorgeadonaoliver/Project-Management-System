@@ -1,5 +1,5 @@
 import api from "./api";
-import { EmployeeProject } from "../types/employeeProject";
+import { EmployeeProject } from "../types/employeeproject";
 
 const getEmployeeProject = async(): Promise<EmployeeProject[]> => {
     var response = await api.get<EmployeeProject[]>('api/EmployeeProject/Get');

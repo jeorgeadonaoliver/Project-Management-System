@@ -19,5 +19,7 @@ namespace PMS.Application.Features.Project.Query
         public string? Description { get; set; }
 
         public int? TeamId { get; set; }
+
+        public string? TeamName { get; set; }
     }
 }

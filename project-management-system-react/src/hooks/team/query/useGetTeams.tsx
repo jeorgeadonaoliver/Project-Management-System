@@ -10,5 +10,4 @@ const useGetTeams = () => {
         });
 };
 
-
 export default useGetTeams;

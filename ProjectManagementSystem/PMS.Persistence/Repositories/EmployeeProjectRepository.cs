@@ -39,5 +39,13 @@ namespace PMS.Persistence.Repositories
                 .Where(x => x.ProjectId == projectId)
                 .ToListAsync();
         }
+
+        public async Task<IEnumerable<EmployeeProject>> GetAll()
+        {
+            return await _context.Set<EmployeeProject>()
+                .Include(x => x.Employee)
+                .Include(x => x.Project)
+                .ToListAsync();
+        }
     }
 }

@@ -33,7 +33,9 @@ namespace PMS.Persistence.Repositories
 
         public async Task<Project> GetById(int id)
         {
-            return await _context.Set<Project>().FirstOrDefaultAsync(x => x.ProjectId == id);
+            return await _context.Set<Project>()
+                .Include(x => x.Team)
+                .FirstOrDefaultAsync(x => x.ProjectId == id);
         }
     }
 }

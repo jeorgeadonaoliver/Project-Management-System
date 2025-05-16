@@ -21,7 +21,8 @@ namespace PMS.Application.Extensions
                 EndDate = project.EndDate,
                 ProjectName = project.ProjectName,
                 StartDate = project.StartDate,
-                TeamId = project.TeamId
+                TeamId = project.TeamId,
+                TeamName = project.Team.TeamName
             };
         }
 
@@ -34,7 +35,8 @@ namespace PMS.Application.Extensions
                 EndDate = project.EndDate,
                 ProjectName = project.ProjectName,
                 StartDate = project.StartDate,
-                TeamId = project.TeamId
+                TeamId = project.TeamId,
+                TeamName = project.Team.TeamName
             };
         }
 

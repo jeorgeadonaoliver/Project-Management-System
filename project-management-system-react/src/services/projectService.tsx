@@ -6,11 +6,6 @@ const getProject = async() : Promise<Project[]> => {
     return response.data;
 };
 
-const getProjectWithTeam = async() : Promise<Project[]> => {
-    var response = await api.get<Project[]>('api/Project/GetProjectWithTeam');
-    return response.data;
-};
-
 const getProjectById = async(id): Promise<Project> => {
     var response = await api.get<Project>(`api/Project/GetById/${id}`);
     return response.data;
@@ -26,4 +21,4 @@ const updateProject = async(projectData): Promise<Project> => {
     return response.data;
 };
 
-export { getProject, getProjectWithTeam, getProjectById, createProject, updateProject };
+export { getProject, getProjectById, createProject, updateProject };

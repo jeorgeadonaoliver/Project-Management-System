@@ -15,9 +15,14 @@ namespace PMS.Application.Extensions
         {
             return new GetEmployeeProjectQueryDto 
             {
+                
                 EmployeeId = employeeProject.EmployeeId,
+                EmployeeName = employeeProject.Employee.LastName + ", " + employeeProject.Employee.FirstName,
                 ProjectId = employeeProject.ProjectId,
-                RoleInProject = employeeProject.RoleInProject
+                RoleInProject = employeeProject.RoleInProject,
+                ProjectName = employeeProject.Project.ProjectName,
+                ProjectDescription = employeeProject.Project.Description,
+                Id = employeeProject.Id
             };
         }
 
@@ -29,7 +34,9 @@ namespace PMS.Application.Extensions
                 EmployeeName = employeeProject.Employee.LastName + ", " + employeeProject.Employee.FirstName,
                 ProjectId = employeeProject.ProjectId,
                 ProjectName = employeeProject.Project.ProjectName,
-                RoleInProject = employeeProject.RoleInProject
+                RoleInProject = employeeProject.RoleInProject,
+                ProjectDescription = employeeProject.Project.Description,
+                Id = employeeProject.Id
             };
         }
     }

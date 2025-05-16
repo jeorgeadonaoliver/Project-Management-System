@@ -6,7 +6,8 @@ const useGetRoleById = (id: string) => {
         queryKey: ['role', id],
         queryFn: () => getRoleById(id),
         retry: 3,
-        staleTime: 1000 * 60 * 5, // 5 minutes
+        staleTime: 1000 * 60 * 5,
+        enabled: !!id
     });
 };
 

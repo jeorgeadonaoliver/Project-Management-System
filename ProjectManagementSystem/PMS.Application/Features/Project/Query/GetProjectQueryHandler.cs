@@ -20,7 +20,7 @@ namespace PMS.Application.Features.Project.Query
 
         public async Task<List<GetProjectQueryDto>> Handle(GetProjectQuery request, CancellationToken cancellationToken)
         {
-            var data = await _repo.GetAllAsync();
+            var data = await _repo.GetAllDetails();
             return data.Select(x => x.MapToGetProjectQueryDto()).ToList();
         }
     }

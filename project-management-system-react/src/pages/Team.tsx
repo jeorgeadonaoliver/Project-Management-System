@@ -1,14 +1,14 @@
 import { useState } from "react";
 
 import { useQueryClient } from "@tanstack/react-query";
-import useTeams from "../hooks/team/query/useGetTeams";
+import useGetTeams from "../hooks/team/query/useGetTeams";
 import useCreateTeam from "../hooks/team/query/useCreateTeam";
 import useUpdateTeam from "../hooks/team/query/useUpdateTeam";
 
 function TeamList(){
     const queryClient = useQueryClient();
     
-    const{data: teams, isLoading, error} = useTeams();
+    const{data: teams, isLoading, error} = useGetTeams();
     const createMutation = useCreateTeam();
     const updateMutation = useUpdateTeam();
 
@@ -64,7 +64,7 @@ function TeamList(){
                 {item.teamName} - {item.description}
                 <button
                   onClick={() => {
-                    setEditingId(item.teamId);
+                    setEditingId(item?.teamId ?? null);
                     setEditName(item.teamName || '');
                     setEditDescription(item.description || '');
                   }}
