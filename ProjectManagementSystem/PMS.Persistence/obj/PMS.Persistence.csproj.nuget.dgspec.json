@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Persistence\\PMS.Persistence.csproj": {}
+    "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectMAnagementSystem\\PMS.Persistence\\PMS.Persistence.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\PMS.Application.csproj": {
+    "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectMAnagementSystem\\PMS.Application\\PMS.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\PMS.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectMAnagementSystem\\PMS.Application\\PMS.Application.csproj",
         "projectName": "PMS.Application",
-        "projectPath": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\PMS.Application.csproj",
+        "projectPath": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectMAnagementSystem\\PMS.Application\\PMS.Application.csproj",
         "packagesPath": "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\obj\\",
         "projectStyle": "PackageReference",
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Domain\\PMS.Domain.csproj": {
-                "projectPath": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Domain\\PMS.Domain.csproj"
+              "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectMAnagementSystem\\PMS.Domain\\PMS.Domain.csproj": {
+                "projectPath": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectMAnagementSystem\\PMS.Domain\\PMS.Domain.csproj"
               }
             }
           }
@@ -88,12 +88,12 @@
         }
       }
     },
-    "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Domain\\PMS.Domain.csproj": {
+    "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectMAnagementSystem\\PMS.Domain\\PMS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Domain\\PMS.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectMAnagementSystem\\PMS.Domain\\PMS.Domain.csproj",
         "projectName": "PMS.Domain",
-        "projectPath": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Domain\\PMS.Domain.csproj",
+        "projectPath": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectMAnagementSystem\\PMS.Domain\\PMS.Domain.csproj",
         "packagesPath": "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -154,12 +154,12 @@
         }
       }
     },
-    "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Persistence\\PMS.Persistence.csproj": {
+    "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectMAnagementSystem\\PMS.Persistence\\PMS.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Persistence\\PMS.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectMAnagementSystem\\PMS.Persistence\\PMS.Persistence.csproj",
         "projectName": "PMS.Persistence",
-        "projectPath": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Persistence\\PMS.Persistence.csproj",
+        "projectPath": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectMAnagementSystem\\PMS.Persistence\\PMS.Persistence.csproj",
         "packagesPath": "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Persistence\\obj\\",
         "projectStyle": "PackageReference",
@@ -183,11 +183,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\PMS.Application.csproj": {
-                "projectPath": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\PMS.Application.csproj"
+              "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectMAnagementSystem\\PMS.Application\\PMS.Application.csproj": {
+                "projectPath": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectMAnagementSystem\\PMS.Application\\PMS.Application.csproj"
               },
-              "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Domain\\PMS.Domain.csproj": {
-                "projectPath": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Domain\\PMS.Domain.csproj"
+              "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectMAnagementSystem\\PMS.Domain\\PMS.Domain.csproj": {
+                "projectPath": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectMAnagementSystem\\PMS.Domain\\PMS.Domain.csproj"
               }
             }
           }

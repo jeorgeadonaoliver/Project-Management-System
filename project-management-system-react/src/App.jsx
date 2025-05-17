@@ -1,16 +1,27 @@
-import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import {MainLayout}  from './layouts/MainLayout'
-import {TeamList} from './pages/Team'
+import MainLayout  from './layouts/MainLayout'
+import { Home } from './pages/home'
+import {TeamList} from './pages/team-list'
+import {Users} from './pages/users'
+import {Projects} from './pages/projects'
+import { Departments }  from './pages/departments'
+import {Teams} from './pages/teams'
 
 function App() {
   return (
     <Router>
-      <Routes path="/layout" element={<MainLayout />}>
-          <Route path="/layout/team-list" element={<TeamList/>} />
+      <Routes>
+        <Route path="/" element={<MainLayout />} >
+          <Route path="/team-list" element={<TeamList/>} />
+          <Route path="/home" element={<Home/>} />
+          <Route path="/users" element={<Users/>} />
+          <Route path="/projects" element={<Projects/>} />
+          <Route path="/departments" element={<Departments/>} />
+          <Route path="/teams" element={<Teams/>} />
+        </Route>  
       </Routes>
     </Router>
-  )
+  );
 }
 
 export default App

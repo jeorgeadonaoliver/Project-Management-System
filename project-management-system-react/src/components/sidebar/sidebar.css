@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+
+@layer components{
+      .sidebar-image {
+        @apply relative flex flex-col items-center justify-center 
+        h-20 w-18 mt-6 mb-2 mx-auto hover:-translate-y-1 hover:scale-100
+        rounded-3xl hover:rounded-xl transition-all
+        duration-300 cursor-pointer  hover:bg-neutral-600 hover:text-white;
+  }
+}

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PMS.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc1a83cfddde6f69df0e3f7161abe0626c5a3495")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f7df47ff4837bde5aad514c22c4ef152247a36a")]
 [assembly: System.Reflection.AssemblyProductAttribute("PMS.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PMS.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
