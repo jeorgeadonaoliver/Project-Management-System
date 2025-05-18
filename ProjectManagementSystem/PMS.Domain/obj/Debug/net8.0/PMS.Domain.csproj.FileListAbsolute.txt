@@ -10,3 +10,15 @@ C:\Users\Jeorge Oliver\source\Real Portfolio\ProjectManagementSystem\ProjectMAna
 C:\Users\Jeorge Oliver\source\Real Portfolio\ProjectManagementSystem\ProjectMAnagementSystem\PMS.Domain\obj\Debug\net8.0\refint\PMS.Domain.dll
 C:\Users\Jeorge Oliver\source\Real Portfolio\ProjectManagementSystem\ProjectMAnagementSystem\PMS.Domain\obj\Debug\net8.0\PMS.Domain.pdb
 C:\Users\Jeorge Oliver\source\Real Portfolio\ProjectManagementSystem\ProjectMAnagementSystem\PMS.Domain\obj\Debug\net8.0\ref\PMS.Domain.dll
+C:\Users\Jeorge Oliver\source\RealPortfolio\ProjectManagementSystem\ProjectManagementSystem\PMS.Domain\bin\Debug\net8.0\PMS.Domain.deps.json
+C:\Users\Jeorge Oliver\source\RealPortfolio\ProjectManagementSystem\ProjectManagementSystem\PMS.Domain\bin\Debug\net8.0\PMS.Domain.dll
+C:\Users\Jeorge Oliver\source\RealPortfolio\ProjectManagementSystem\ProjectManagementSystem\PMS.Domain\bin\Debug\net8.0\PMS.Domain.pdb
+C:\Users\Jeorge Oliver\source\RealPortfolio\ProjectManagementSystem\ProjectManagementSystem\PMS.Domain\obj\Debug\net8.0\PMS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jeorge Oliver\source\RealPortfolio\ProjectManagementSystem\ProjectManagementSystem\PMS.Domain\obj\Debug\net8.0\PMS.Domain.AssemblyInfoInputs.cache
+C:\Users\Jeorge Oliver\source\RealPortfolio\ProjectManagementSystem\ProjectManagementSystem\PMS.Domain\obj\Debug\net8.0\PMS.Domain.AssemblyInfo.cs
+C:\Users\Jeorge Oliver\source\RealPortfolio\ProjectManagementSystem\ProjectManagementSystem\PMS.Domain\obj\Debug\net8.0\PMS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Jeorge Oliver\source\RealPortfolio\ProjectManagementSystem\ProjectManagementSystem\PMS.Domain\obj\Debug\net8.0\PMS.Domain.sourcelink.json
+C:\Users\Jeorge Oliver\source\RealPortfolio\ProjectManagementSystem\ProjectManagementSystem\PMS.Domain\obj\Debug\net8.0\PMS.Domain.dll
+C:\Users\Jeorge Oliver\source\RealPortfolio\ProjectManagementSystem\ProjectManagementSystem\PMS.Domain\obj\Debug\net8.0\refint\PMS.Domain.dll
+C:\Users\Jeorge Oliver\source\RealPortfolio\ProjectManagementSystem\ProjectManagementSystem\PMS.Domain\obj\Debug\net8.0\PMS.Domain.pdb
+C:\Users\Jeorge Oliver\source\RealPortfolio\ProjectManagementSystem\ProjectManagementSystem\PMS.Domain\obj\Debug\net8.0\ref\PMS.Domain.dll

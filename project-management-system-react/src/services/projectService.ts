@@ -2,22 +2,22 @@ import api from "./api";
 import type { Project } from "../types/project";
 
 const getProject = async() : Promise<Project[]> => {
-    var response = await api.get<Project[]>('api/Project/Get');
+    const response = await api.get<Project[]>('api/Project/Get');
     return response.data;
 };
 
 const getProjectById = async(id : number): Promise<Project> => {
-    var response = await api.get<Project>(`api/Project/GetById/${id}`);
+    const response = await api.get<Project>(`api/Project/GetById/${id}`);
     return response.data;
 };
 
 const createProject = async(projectData: Omit<Project,'projectId'>): Promise<Project> => {
-    var response = await api.post<Project>('api/Project/Create', projectData);
+    const response = await api.post<Project>('api/Project/Create', projectData);
     return response.data;
 };
 
 const updateProject = async(projectData: Project): Promise<Project> => {
-    var response = await api.put<Project>(`api/Project/Update`, projectData);
+    const response = await api.put<Project>(`api/Project/Update`, projectData);
     return response.data;
 };
 

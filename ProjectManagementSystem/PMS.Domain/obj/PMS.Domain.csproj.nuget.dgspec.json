@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectMAnagementSystem\\PMS.Domain\\PMS.Domain.csproj": {}
+    "C:\\Users\\Jeorge Oliver\\source\\RealPortfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Domain\\PMS.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectMAnagementSystem\\PMS.Domain\\PMS.Domain.csproj": {
+    "C:\\Users\\Jeorge Oliver\\source\\RealPortfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Domain\\PMS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectMAnagementSystem\\PMS.Domain\\PMS.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Jeorge Oliver\\source\\RealPortfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Domain\\PMS.Domain.csproj",
         "projectName": "PMS.Domain",
-        "projectPath": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectMAnagementSystem\\PMS.Domain\\PMS.Domain.csproj",
+        "projectPath": "C:\\Users\\Jeorge Oliver\\source\\RealPortfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Domain\\PMS.Domain.csproj",
         "packagesPath": "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jeorge Oliver\\source\\Real Portfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Jeorge Oliver\\source\\RealPortfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

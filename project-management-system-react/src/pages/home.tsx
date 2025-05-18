@@ -4,9 +4,10 @@ export const Home = () => {
 
     return (
         <>
-        <div>
+        <div className="p-4">
            <PageTitle title="Home Page"/>
         </div>
+       
         </>
     );
 };
