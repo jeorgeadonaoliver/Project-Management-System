@@ -1,29 +1,26 @@
-import { useModal } from "../../context/modal-context";
+import type { ReactNode } from "react";
+import type React from "react";
+import Button from "./button";
+import { IoClose } from "react-icons/io5";
 
 
-const Modal = () => {
+interface ModalProos{
+  children?: ReactNode;
+  modalTitle: string;
+  closeModal: () => void;
+}
 
-    const { closeModal } = useModal();
+const Modal: React.FC<ModalProos> = ({children, modalTitle, closeModal}) => {
 
     return(
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 transition-opacity duration-300">
+        <div className="fixed inset-0 flex items-center justify-center bg-gray-400/80 backdrop-blur bg-opacity-100 transition-opacity duration-500 ">
           <div className="bg-white p-6 rounded-lg shadow-lg w-96 text-black transition-transform duration-300 scale-100">
-            <h2 className="text-xl font-bold mb-4">Add Record</h2>
-            <form>
-              <label className="block mb-2">Name:</label>
-              <input
-                type="text"
-                className="w-full p-2 border border-gray-300 rounded-md"
-                placeholder="Enter name"
-              />
-              <button
-                type="submit"
-                className="mt-4 w-full bg-emerald-600 text-white py-2 rounded-md"
-              >
-                Submit
-              </button>
-            </form>
-            <button onClick={closeModal}>Close</button>
+            <div className="flex items-center justify-between">
+                <h2 className="text-xl font-bold mb-4">{modalTitle}</h2>
+                <Button icon={<IoClose size="20" />} 
+                onClick={closeModal}></Button>
+            </div>
+            {children}
           </div>
         </div>
     );

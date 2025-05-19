@@ -1,15 +1,11 @@
-import { useModal } from "../../context/modal-context";
-
-interface ButtonModalProps
-{
+interface ButtonModalProps{
     icon: React.ReactNode;
     text?: string;
+    openModal : () => void;
 }
 
+const ButtonModal = ({icon,text, openModal}: ButtonModalProps) => {
 
-const ButtonModal = ({icon,text}: ButtonModalProps) => {
-    const { openModal } = useModal();
-    
     return(
        <> 
         <button type="button" 

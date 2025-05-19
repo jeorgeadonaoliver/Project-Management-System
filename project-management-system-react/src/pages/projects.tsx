@@ -7,6 +7,7 @@ import type { Project } from "../types/project";
 export const Projects = () => {
 
     const{data: proj, isLoading, error} = useGetProject();
+    const openModal = () => {return false};
 
     if(isLoading) return <p>Loading...</p>;
     if(error) return <p>Error: {error.message}</p>;
@@ -18,12 +19,12 @@ export const Projects = () => {
         </div>
          <div className="flex w-full min-h-screen">
             <div className="p-4 flex-1">
-                <Card cardTitle={"List of Project"} addButton={true} text="Add Project">
+                <Card cardTitle={"List of Project"} addButton={true} text="Add Project" openModal={openModal}>
                     <Gridview<Project> gridviewTitle={""} data={proj || []}></Gridview>
                 </Card>
             </div>
             <div className="p-4 w-120">
-                <Card cardTitle={"Project Form"} addButton={false} >
+                <Card cardTitle={"Project Form"} addButton={false} openModal={openModal} >
                     SAMPLE FORM
                 </Card>
             </div>
