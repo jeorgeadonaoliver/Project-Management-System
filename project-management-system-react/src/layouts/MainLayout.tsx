@@ -13,7 +13,7 @@ const MainLayout = () =>{
 
     return(
 
-      <div className="min-h-screen bg-neutral-800 text-white flex">
+      <div className="min-h-screen bg-neutral-800 text-white text-sm flex">
           
         <aside className="w-20 p-4">
             <Sidebar sidebarItems={sidebarItems}></Sidebar>

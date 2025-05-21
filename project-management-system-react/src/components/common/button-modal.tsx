@@ -1,16 +1,16 @@
 interface ButtonModalProps{
     icon: React.ReactNode;
     text?: string;
-    openModal : () => void;
+    onClick : () => void;
 }
 
-const ButtonModal = ({icon,text, openModal}: ButtonModalProps) => {
+const ButtonModal = ({icon,text, onClick}: ButtonModalProps) => {
 
     return(
        <> 
         <button type="button" 
         className="px-4 py-2 bg-emerald-600 text-white rounded-lg flex" 
-        onClick={openModal}>
+        onClick={onClick}>
             {icon}
             {text}
         </button>

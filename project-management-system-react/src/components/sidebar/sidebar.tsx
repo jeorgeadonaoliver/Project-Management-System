@@ -48,7 +48,7 @@ const sidebar = React.memo(({sidebarItems} : {sidebarItems: SidebarItemProps[]})
 
     return(
         <>
-        <div className="fixed top-0 left-0 h-screen w-18 m-0 flex flex-col items-center bg-neutral-800 text-white shadow-lg overflow-y-auto">
+        <div className="fixed top-0 left-0 h-screen w-18 m-0 flex flex-col items-center bg-neutral-800 text-white shadow-lg overflow-y-auto text-sm">
             <SidebarImage imagePath={dummylogo} name={""}></SidebarImage>
 
             <div className=" relative w-full flex justify-center mt-4 mb-8">

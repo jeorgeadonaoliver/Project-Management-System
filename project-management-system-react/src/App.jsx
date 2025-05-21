@@ -7,8 +7,12 @@ import {Projects} from './pages/projects'
 import { Departments }  from './pages/departments'
 import {Teams} from './pages/teams'
 
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 function App() {
   return (
+    <>
     <Router>
       <Routes>
         <Route path="/" element={<MainLayout />} >
@@ -21,6 +25,18 @@ function App() {
         </Route>  
       </Routes>
     </Router>
+    <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
+    </>
   );
 }
 

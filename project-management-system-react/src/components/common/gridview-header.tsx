@@ -16,10 +16,10 @@ function GridviewHeader<T extends object>({datas}: GridviewHeaderProps<T>) {
     <div className="overflow-x-auto rounded-xl">
       <table className="min-w-full border border-gray-300 rounded-xl shadow-md">
         <thead>
-          <tr className="bg-neutral-800 text-white">
+          <tr className="bg-neutral-800 text-white text-sm">
             <th className="px-4 py-2 text-center">Action</th>
             {keys.map((key) => (
-              <th key={String(key)} className="px-4 py-2 text-left">
+              <th key={String(key)} className="px-4 py-2 text-center">
                 {formatKey(String(key))}
               </th>
             ))}
