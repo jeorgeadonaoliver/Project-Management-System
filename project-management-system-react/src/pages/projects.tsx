@@ -1,13 +1,37 @@
+import { useEffect, useState } from "react";
 import Card from "../components/common/card";
 import Gridview from "../components/common/gridview";
 import { PageTitle } from "../components/common/page-title";
 import useGetProject from "../hooks/project/query/useGetProject";
 import type { Project } from "../types/project";
+import { MdAdd, MdEditNote } from "react-icons/md";
+import Modal from "../components/common/modal";
+import AddProjectForm from "../components/forms/project/AddProjectForm";
 
 export const Projects = () => {
 
-    const{data: proj, isLoading, error} = useGetProject();
-    const openModal = () => {return false};
+    const [selectedProjecttId, setSelectedProjectId] = useState<number | null>(null);
+    const handleIdSelect = (id: number) => {
+        setSelectedProjectId(id);
+    };
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+        setSelectedProjectId(selectedProjecttId ?? null);
+    }, 100); 
+        return () => clearInterval(interval);
+    }, [selectedProjecttId]);
+
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const{data: project, isLoading, error} = useGetProject();
+    const openModal = () => setIsModalOpen(true);
+    const closeModal = () => setIsModalOpen(false);
+    //const [allowEdit, setAllowEdit] = useState(false);
+
+    // const setEdit = () => {  
+    //   setAllowEdit(true);
+    //   console.log("isAllowed edit?", allowEdit);
+    // };
 
     if(isLoading) return <p>Loading...</p>;
     if(error) return <p>Error: {error.message}</p>;
@@ -19,16 +43,33 @@ export const Projects = () => {
         </div>
          <div className="flex w-full min-h-screen">
             <div className="p-4 flex-1">
-                <Card cardTitle={"List of Project"} addButton={true} text="Add Project" openModal={openModal}>
-                    <Gridview<Project> gridviewTitle={""} data={proj || []}></Gridview>
+                <Card cardTitle={"List of Project"} addButton={true} iconbtn={<MdAdd size="20" />}  text="Add Project" onClick={openModal}>
+                    <Gridview<Project> gridviewTitle={""} data={project || []} onSelectedId={handleIdSelect}></Gridview>
                 </Card>
             </div>
             <div className="p-4 w-120">
-                <Card cardTitle={"Project Form"} addButton={false} openModal={openModal} >
+                {selectedProjecttId == null || selectedProjecttId == undefined ? (
+                    
+                <Card cardTitle={"Project Form"} addButton={false} onClick={openModal} iconbtn={<MdEditNote size={20}/>} >
+                    Please select project
+                </Card>
+                ):(
+                <Card cardTitle={"Project Form"} addButton={false} onClick={openModal} iconbtn={<MdEditNote size={20}/>} >
                     SAMPLE FORM
                 </Card>
+                )};
             </div>
         </div>
+         {isModalOpen && (
+        <div className="modal">
+          <div className="modal-content">
+            <Modal modalTitle={"Add Department"} closeModal= {closeModal}>
+                <AddProjectForm onClick={closeModal}></AddProjectForm>
+            </Modal>
+            <button onClick={closeModal}>Close</button>
+          </div>
+        </div>
+        )}
         </>
     );
 };

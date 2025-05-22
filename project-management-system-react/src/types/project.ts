@@ -6,5 +6,5 @@ export interface Project{
     endDate: string;
     description: string;
     teamId: number;
-    teamName: string;
+    teamName?: string;
 }

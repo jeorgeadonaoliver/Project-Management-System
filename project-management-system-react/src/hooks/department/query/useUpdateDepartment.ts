@@ -1,6 +1,7 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { updateDepartment } from "../../../services/departmentService";
 import type { Department } from "../../../types/department";
+import { toast } from "react-toastify";
 
 const useUpdateDepartment = () =>{
     const queryClient = useQueryClient();
@@ -12,6 +13,7 @@ const useUpdateDepartment = () =>{
         onSuccess: () => {
             queryClient.invalidateQueries({queryKey:['departments']});
             queryClient.invalidateQueries({queryKey:['department']});
+            toast.success('Updating Department detail successfully!');
         },
         onError: (error) => {
             console.error('Error on updating Department record: ', error);

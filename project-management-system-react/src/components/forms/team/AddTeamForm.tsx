@@ -16,11 +16,10 @@ const AddTeamFrom = ({onClick}:AddTeamFromProp) => {
         resolver: yupResolver(teamSchema)
     });
 
-    const{mutate: addTeamMutation} = useCreateTeam();
+    const{mutate: addTeamMutation} = useCreateTeam(onClick);
 
     const onSubmit = async (data: TeamFromInputs) => {
         addTeamMutation(data);
-        onClick = () => false;
     };
 
     return(

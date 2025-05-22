@@ -2,9 +2,10 @@ import GridviewList from "./gridview-list";
 
 interface GridviewHeaderProps<T extends object>{
     datas: T[];
+    onSelectedId: (id:number) => void;
 }
 
-function GridviewHeader<T extends object>({datas}: GridviewHeaderProps<T>) {
+function GridviewHeader<T extends object>({datas, onSelectedId}: GridviewHeaderProps<T>) {
 
   const formatKey = (key: string) => {
     return key.replace(/([A-Z])/g, " $1").replace(/^./, (str) => str.toUpperCase());
@@ -26,7 +27,7 @@ function GridviewHeader<T extends object>({datas}: GridviewHeaderProps<T>) {
           </tr>
         </thead>
         <tbody>
-          <GridviewList data={datas}></GridviewList>
+          <GridviewList data={datas} onSelectedId={onSelectedId}></GridviewList>
         </tbody>
       </table>
     </div>

@@ -3,7 +3,7 @@ import { createTeam } from "../../../services/teamService";
 import type { Team } from "../../../types/team";
 import { toast } from "react-toastify";
 
-const useCreateTeam = () => {
+const useCreateTeam = (onSuccessCallback?: () => void) => {
     const queryClient = useQueryClient();
     return useMutation({
         mutationFn: (team: Team) => {
@@ -12,6 +12,10 @@ const useCreateTeam = () => {
         onSuccess: () => {
             queryClient.invalidateQueries({queryKey:['teams']});
             toast.success('Creating Team successfully!');
+
+            if(onSuccessCallback){
+                onSuccessCallback();
+            }
         },
         onError: (error) => {
             console.error('Error on creating Team: ', error);

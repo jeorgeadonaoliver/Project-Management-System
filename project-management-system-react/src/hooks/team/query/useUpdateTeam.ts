@@ -3,7 +3,7 @@ import { updateTeam } from "../../../services/teamService";
 import type { Team } from "../../../types/team";
 import { toast } from "react-toastify";
 
-const useUpdateTeam = () => {
+const useUpdateTeam = (onSuccessCallback?: ()=> void) => {
   const queryClient = useQueryClient();
 
   return useMutation({
@@ -14,6 +14,10 @@ const useUpdateTeam = () => {
       queryClient.invalidateQueries({queryKey:['teams']});
       queryClient.invalidateQueries({queryKey:['team']});
       toast.success('Updating Team Details successfully!');
+
+      if(onSuccessCallback){
+        onSuccessCallback();
+      }
     },
     onError: (error) => {
         console.error('Error on updating team: ', error);

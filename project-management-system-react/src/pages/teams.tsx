@@ -5,33 +5,30 @@ import Modal from "../components/common/modal";
 import { PageTitle } from "../components/common/page-title";
 import useGetTeams from "../hooks/team/query/useGetTeams";
 import type { Team } from "../types/team";
-import { useQueryClient } from "@tanstack/react-query";
+// import { useQueryClient } from "@tanstack/react-query";
 import AddTeamFrom from "../components/forms/team/AddTeamForm";
 import { MdAdd, MdEditNote } from "react-icons/md";
 import UpdateTeamFrom from "../components/forms/team/UpdateTeamFrom";
 
 
 export const Teams = () => {
-    const queryClient = useQueryClient();
 
-    const [selectedTeamId, setSelectedTeamId] = useState<number | null>(
-        () => queryClient.getQueryData<number>(['TeamId']) || null
-    );
+    const [selectedTeamId, setSelectedTeamId] = useState<number | null>(null);
+
+    const handleIdSelect = (id: number) => {
+      setSelectedTeamId(id);
+    };
 
     useEffect(() => {
         const interval = setInterval(() => {
-        const id = queryClient.getQueryData<number>(['TeamId']);
-        setSelectedTeamId(id || null);
+        setSelectedTeamId(selectedTeamId ?? null);
     }, 100); 
       return () => clearInterval(interval);
-    }, [queryClient]);
+    }, [selectedTeamId]);
 
     const{data: teams, isLoading, error} = useGetTeams();
-
     const [isModalOpen, setIsModalOpen] = useState(false);
-
     const [allowEdit, setAllowEdit] = useState(false);
-
     const openModal = () => setIsModalOpen(true);
     const closeModal = () => setIsModalOpen(false);
 
@@ -51,7 +48,7 @@ export const Teams = () => {
         <div className="flex w-full min-h-screen">
             <div className="p-4 flex-1">
                 <Card cardTitle={"List of Teams"} addButton={true} text="Add Team" onClick={openModal} iconbtn={<MdAdd size={20}/>} >
-                    <Gridview<Team>  gridviewTitle={""} data={teams ?? []}></Gridview>
+                    <Gridview<Team>  gridviewTitle={""} data={teams ?? []} onSelectedId={handleIdSelect}></Gridview>
                 </Card>
             </div>
             <div className="p-4 w-120">

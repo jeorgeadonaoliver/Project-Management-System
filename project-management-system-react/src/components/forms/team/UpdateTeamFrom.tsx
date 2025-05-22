@@ -31,22 +31,12 @@ const UpdateTeamFrom: React.FC<UpdateTeamFormProps> = ({id, allowEdit, setAllowE
         }
     });
 
-    const {mutate: updateTeamMutation,
-            // error: updateError,
-            // isSuccess: isUpdateSuccess,
-    } = useUpdateTeam();
-
-
+    const {mutate: updateTeamMutation} = useUpdateTeam();
 
     const onSubmit = async (data: TeamFromInputs) => {
 
         //mutate(data);
         updateTeamMutation(data);
-
-        //const queryClient = useQueryClient();
-        //await updateTeam(data);
-
-
         setAllowEdit(false);
     };
 
@@ -58,7 +48,6 @@ const UpdateTeamFrom: React.FC<UpdateTeamFormProps> = ({id, allowEdit, setAllowE
 
     return(
     <>
-
         {isLoading && <p>Loading...</p>}
         {error && <p>Error: {error.message}</p>}
         {teams && 
@@ -122,7 +111,6 @@ const UpdateTeamFrom: React.FC<UpdateTeamFormProps> = ({id, allowEdit, setAllowE
                     </div>
                 )}
             </div>
-
             </form>        
         }
     </>
