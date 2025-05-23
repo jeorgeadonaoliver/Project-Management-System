@@ -7,6 +7,7 @@ import type { Project } from "../types/project";
 import { MdAdd, MdEditNote } from "react-icons/md";
 import Modal from "../components/common/modal";
 import AddProjectForm from "../components/forms/project/AddProjectForm";
+import UpdateProjectForm from "../components/forms/project/UpdateProjectForm";
 
 export const Projects = () => {
 
@@ -26,12 +27,12 @@ export const Projects = () => {
     const{data: project, isLoading, error} = useGetProject();
     const openModal = () => setIsModalOpen(true);
     const closeModal = () => setIsModalOpen(false);
-    //const [allowEdit, setAllowEdit] = useState(false);
+    const [allowEdit, setAllowEdit] = useState(false);
 
-    // const setEdit = () => {  
-    //   setAllowEdit(true);
-    //   console.log("isAllowed edit?", allowEdit);
-    // };
+    const setEdit = () => {  
+      setAllowEdit(true);
+      console.log("isAllowed edit?", allowEdit);
+    };
 
     if(isLoading) return <p>Loading...</p>;
     if(error) return <p>Error: {error.message}</p>;
@@ -54,8 +55,8 @@ export const Projects = () => {
                     Please select project
                 </Card>
                 ):(
-                <Card cardTitle={"Project Form"} addButton={false} onClick={openModal} iconbtn={<MdEditNote size={20}/>} >
-                    SAMPLE FORM
+                <Card cardTitle={"Project Form"} addButton={true} text="Edit" onClick={setEdit} iconbtn={<MdEditNote size={20}/>}>
+                    <UpdateProjectForm id={selectedProjecttId} allowEdit={allowEdit} setAllowEdit={setAllowEdit}></UpdateProjectForm>
                 </Card>
                 )};
             </div>
@@ -63,7 +64,7 @@ export const Projects = () => {
          {isModalOpen && (
         <div className="modal">
           <div className="modal-content">
-            <Modal modalTitle={"Add Department"} closeModal= {closeModal}>
+            <Modal modalTitle={"Add Project"} closeModal= {closeModal}>
                 <AddProjectForm onClick={closeModal}></AddProjectForm>
             </Modal>
             <button onClick={closeModal}>Close</button>

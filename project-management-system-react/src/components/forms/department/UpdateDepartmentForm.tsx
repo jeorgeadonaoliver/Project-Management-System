@@ -46,7 +46,6 @@ const UpdateDepartmentForm: React.FC<UpdateDepartmentFormProps> = ({id, allowEdi
         {error && <p>Error: {error.message}</p>}
         {depatments && 
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
-            {/* Team ID */}
                 <div className="flex items-center gap-2 w-auto">
                     <label htmlFor="departmentId" className="block text-sm font-bold text-gray-700">Department ID :</label>
                     <input

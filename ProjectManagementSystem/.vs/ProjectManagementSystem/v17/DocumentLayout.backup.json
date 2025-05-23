@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Jeorge Oliver\\source\\RealPortfolio\\ProjectManagementSystem\\ProjectManagementSystem\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|c:\\users\\jeorge oliver\\source\\realportfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.application\\features\\project\\command\\createproject\\createprojectcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA2FD06D-DA9D-412B-A401-6B4C37FBCB20}|PMS.Application\\PMS.Application.csproj|solutionrelative:pms.application\\features\\project\\command\\createproject\\createprojectcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65886B8F-7434-4D18-A086-44A8176FDFC2}|PMS.Api\\PMS.Api.csproj|c:\\users\\jeorge oliver\\source\\realportfolio\\projectmanagementsystem\\projectmanagementsystem\\pms.api\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65886B8F-7434-4D18-A086-44A8176FDFC2}|PMS.Api\\PMS.Api.csproj|solutionrelative:pms.api\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +27,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateProjectCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\RealPortfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\Project\\Command\\CreateProject\\CreateProjectCommandHandler.cs",
+              "RelativeDocumentMoniker": "PMS.Application\\Features\\Project\\Command\\CreateProject\\CreateProjectCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\RealPortfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Application\\Features\\Project\\Command\\CreateProject\\CreateProjectCommandHandler.cs",
+              "RelativeToolTip": "PMS.Application\\Features\\Project\\Command\\CreateProject\\CreateProjectCommandHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T07:50:42.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TeamController.cs",
+              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\RealPortfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Api\\Controllers\\TeamController.cs",
+              "RelativeDocumentMoniker": "PMS.Api\\Controllers\\TeamController.cs",
+              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\RealPortfolio\\ProjectManagementSystem\\ProjectManagementSystem\\PMS.Api\\Controllers\\TeamController.cs",
+              "RelativeToolTip": "PMS.Api\\Controllers\\TeamController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAMwCUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:21:57.235Z",
+              "EditorCaption": ""
             }
           ]
         }
