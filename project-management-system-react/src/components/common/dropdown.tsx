@@ -6,15 +6,16 @@ interface DropdownListProp<T>
     getOptionKey: (item: T) => number;
     getOptionLabel: (item:T) => string;
     selectProps? : React.SelectHTMLAttributes<HTMLSelectElement>;
+    placeHolder: string;
 }
 
 
-function DropdownList<T>({selectProps,items, getOptionKey, getOptionLabel}:DropdownListProp<T>){
+function DropdownList<T>({selectProps,items, getOptionKey, getOptionLabel, placeHolder}:DropdownListProp<T>){
 
     return(
         <>
         <select {...selectProps}>
-            <option value="">-- Select a team --</option>
+            <option value="">-- {placeHolder} --</option>
             {items.map((item, index)=>(
                 <option key={index} value={getOptionKey(item)}>
                     {getOptionLabel(item)}

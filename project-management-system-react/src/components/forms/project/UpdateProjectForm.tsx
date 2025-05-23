@@ -99,6 +99,7 @@ const UpdateProjectForm: React.FC<UpdateProjectFormProps> = ({id, allowEdit, set
                         className:"w-full p-2 border border-gray-300 rounded-md", 
                         disabled:!allowEdit
                         }}
+                        placeHolder='Select Team'
                         items={teams} 
                         getOptionKey={(teams) => teams.teamId ?? 0} 
                         getOptionLabel={(teams) => teams.teamName}                    

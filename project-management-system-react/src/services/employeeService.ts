@@ -1,5 +1,5 @@
 import api from "./api";
-import type { Employee } from "../types/employee";
+import type { CreateEmployee, Employee } from "../types/employee";
 
 const getEmployee = async(): Promise<Employee[]> => {
     const response = await api.get<Employee[]>('api/Employee/Get');
@@ -16,8 +16,8 @@ const getEmployeeByDepTeam = async(id : number): Promise<Employee[]> => {
     return response.data;
 }
 
-const createEmployee = async(employeeData: Omit<Employee,'employeeId'>): Promise<Employee> => {
-    const response = await api.post<Employee>('api/Employee/Create', employeeData);
+const createEmployee = async(employeeData: Omit<CreateEmployee,'employeeId'>): Promise<CreateEmployee> => {
+    const response = await api.post<CreateEmployee>('api/Employee/Create', employeeData);
     return response.data;
 }
 

@@ -6,7 +6,7 @@ import { HiOfficeBuilding } from "react-icons/hi";
 const MainLayout = () =>{
 
           const sidebarItems = [
-          { icon: <PiUsersThreeFill size="20" />, text: "Users", index: 1, route: '/users'},
+          { icon: <PiUsersThreeFill size="20" />, text: "Employees", index: 1, route: '/employees'},
           { icon: <PiFolderOpenBold size="20" />, text: "Projects", index: 2, route:'/projects' },
           { icon: <PiMicrosoftTeamsLogo size="20" />, text: "Teams", index: 3, route: '/teams'},
           { icon: <HiOfficeBuilding size="20" />, text: "Deparments", index: 4, route: '/departments'}];
