@@ -14,7 +14,7 @@ const useUpdateEmployee = () => {
             queryClient.invalidateQueries({queryKey:['employees']});
             queryClient.invalidateQueries({queryKey:['employeesdepteam']});
             
-            toast.success('Updating Project Details successfully!');
+            toast.success('Updating Employee Details successfully!');
                        
         },
         onError: (error) =>{
