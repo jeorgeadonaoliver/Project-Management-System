@@ -1,17 +1,18 @@
 export interface Employee{
 
-    employeeId?: number;
+    employeeId: number;
     firstName: string;
     lastName: string;
+    fullname: string;
     email: string;
-    phoneNumber: string | null;
-    hireDate: string | null;
+    phoneNumber: string;
+    hireDate: string;
     jobId: number;
     jobName: string;
     departmentId: number;
     departmentName: string;
     salary: number;
-    managerId: number | null;
+    managerId: number;
     teamId: number;
     teamName: string;
     roleId: number;
@@ -19,6 +20,21 @@ export interface Employee{
 }
 
 export interface CreateEmployee{
+
+    firstName: string;
+    lastName: string;
+    email: string;
+    phoneNumber: string;
+    hireDate: string;
+    jobId: number;
+    departmentId: number;
+    salary: number;
+    managerId: number;
+    teamId: number;
+    roleId: number;
+}
+
+export interface UpdateEmployee{
 
     firstName: string;
     lastName: string;

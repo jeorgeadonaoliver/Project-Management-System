@@ -123,8 +123,8 @@ const AddEmplopyeeForm = ({onClick}: AddEmployeeFormProp)=>{
                     getOptionKey={(manager)=> manager.employeeId ?? 0} 
                     getOptionLabel={(manager) => (manager.lastName + "," + manager.firstName)} 
                 />
-                {errors.teamId && (
-                    <p className="text-red-500 text-sm font-bold">{errors.teamId.message}</p>
+                {errors.managerId && (
+                    <p className="text-red-500 text-sm font-bold">{errors.managerId.message}</p>
                 )}
             </div>
             <div>
@@ -139,8 +139,8 @@ const AddEmplopyeeForm = ({onClick}: AddEmployeeFormProp)=>{
                     getOptionKey={(roles)=> roles.roleId ?? 0} 
                     getOptionLabel={(roles) => roles.roleName } 
                 />
-                {errors.teamId && (
-                    <p className="text-red-500 text-sm font-bold">{errors.teamId.message}</p>
+                {errors.roleId && (
+                    <p className="text-red-500 text-sm font-bold">{errors.roleId.message}</p>
                 )}
             </div>
             <div className="mt-4 flex gap-4">

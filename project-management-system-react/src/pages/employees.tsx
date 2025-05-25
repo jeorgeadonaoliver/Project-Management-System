@@ -7,6 +7,7 @@ import type { Employee } from "../types/employee";
 import { useEffect, useState } from "react";
 import Modal from "../components/common/modal";
 import AddEmplopyeeForm from "../components/forms/employee/AddEmplopyeeForm";
+import UpdateEmployeeForm from "../components/forms/employee/UpdateEmployeeForm";
 
 export const Employees = () => {
 
@@ -54,8 +55,9 @@ export const Employees = () => {
                             SAMPLE FORM
                         </Card>
                     ):(
-                        <Card cardTitle={"Project Form"} addButton={true} text="Edit" onClick={setEdit} iconbtn={<MdEditNote size={20}/>}>
+                        <Card cardTitle={"Employee Form"} addButton={true} text="Edit" onClick={setEdit} iconbtn={<MdEditNote size={20}/>}>
                             {/* <UpdateProjectForm id={selectedProjecttId} allowEdit={allowEdit} setAllowEdit={setAllowEdit}></UpdateProjectForm> */}
+                            <UpdateEmployeeForm id={selectedEmployeeId} allowEdit={allowEdit} setAllowEdit={setAllowEdit}></UpdateEmployeeForm>
                         </Card>
                     )};
                     
